@@ -41,7 +41,7 @@
       <div class="logo">
         <a href="<?php echo base_url() . 'Home/Index'; ?>">
           <i class="fa fa-utensils me-3"></i>
-          <h1 class="mb-0">Restaurant.</h1>
+          <h1 class="mb-0">Restaurant</h1>
         </a>
       </div>
       <div class="menus">
