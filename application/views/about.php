@@ -307,115 +307,22 @@
                   <div class="image-box-inner">
                     <p class="mb-0">2016</p>
                   </div>
-
                 </div>
               </div>
             </div>
+
             <div class="story-content py-5 my-4" data-aos="fade-right">
               <div>
-                <p class="text-center"><strong>16.10.2000:</strong>The Begin of Fooday Restaurents</p>
+                <p class="text-center"><strong>16.10.2000:</strong>The Begin of our Restaurant!</p>
                 <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nosrud lorem exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-                  voluptatem.
+                Restaurant is more than just a place to eat—it's a celebration of good food and great company. Established in 2000, our restaurant prides itself on offering a wide variety of dishes made with fresh, high-quality ingredients. From savory appetizers to hearty entrees, every meal is crafted with care to deliver the best flavors in every bite.
+
+Our menu features a range of carefully curated options, with a special focus on vegetarian dishes, designed to cater to different tastes and dietary preferences. Whether you're craving comfort food or looking to try something new, we have something for everyone.
                 </p>
                 <p class="text-center">
-                  Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                  quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
+                At Restaurant, we believe that food brings people together, and our warm, inviting atmosphere makes it the perfect spot for family meals, gatherings with friends, or a special dinner out. With impeccable service and a commitment to quality, we ensure that every visit is an unforgettable dining experience.
                 </p>
-              </div>
-              <div>
-                <p class="text-center"><strong>16.10.2000:</strong>The Begin of Fooday Restaurents</p>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nosrud lorem exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-                  voluptatem.
-                </p>
-                <p class="text-center">
-                  Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                  quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
-                </p>
-              </div>
-              <div>
-                <p class="text-center"><strong>16.10.2000:</strong>The Begin of Fooday Restaurents</p>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nosrud lorem exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-                  voluptatem.
-                </p>
-                <p class="text-center">
-                  Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                  quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
-                </p>
-              </div>
-              <div>
-                <p class="text-center"><strong>16.10.2000:</strong>The Begin of Fooday Restaurents</p>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nosrud lorem exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-                  voluptatem.
-                </p>
-                <p class="text-center">
-                  Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                  quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
-                </p>
-              </div>
-              <div>
-                <p class="text-center"><strong>16.10.2000:</strong>The Begin of Fooday Restaurents</p>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nosrud lorem exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-                  voluptatem.
-                </p>
-                <p class="text-center">
-                  Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                  quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
-                </p>
-              </div>
-              <div>
-                <p class="text-center"><strong>16.10.2000:</strong>The Begin of Fooday Restaurents</p>
-                <p class="text-center">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nosrud lorem exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
-                  voluptatem.
-                </p>
-                <p class="text-center">
-                  Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
-                  quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                  aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                  nesciunt.
-                </p>
-              </div>
-            </div>
-          </div>
+              </div>   
         </div>
       </div>
     </section>

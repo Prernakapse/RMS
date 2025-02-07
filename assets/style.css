@@ -876,7 +876,7 @@ header.scrolled {
 	width: 0;
 	height: 100%;
 	background-color: var(--primary-color);
-	transition: width 0.3s ease, right 0.3s ease;
+	transition: width 0.3s ease, left 0.3s ease;
 	z-index: 1;
 }
 

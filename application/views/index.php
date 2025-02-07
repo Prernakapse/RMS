@@ -554,7 +554,7 @@
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
                       <!-- <img width="90%" src="./assets/images/menu-slider-dinner.png" alt="" /> -->
-                      <img width="90%" src="<?php echo base_url('assets/images/menu-slider-dinner.png'); ?>" alt="" />
+                      <img width="90%" src="<?php echo base_url('assets/images/lunch.jpg'); ?>" alt="" />
                     </div>
                   </div>
                   <div class="col-lg-7">
@@ -646,7 +646,7 @@
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
                       <!-- <img width="90%" src="./assets/images/menu-slider-dessert.png" alt="" /> -->
-                      <img width="90%" src="<?php echo base_url('assets/images/menu-slider-dessert.png'); ?>" alt="" />
+                      <img width="90%" src="<?php echo base_url('assets/images/lunch.jpg'); ?>" alt="" />
                     </div>
                   </div>
                   <div class="col-lg-7">
@@ -724,7 +724,7 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
+                          <span class="price-symbol">Rs</span>
                           100</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
@@ -739,7 +739,7 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
                       <!-- <img width="90%" src="./assets/images/menu-slider-lunch.png" alt="" /> -->
-                      <img width="90%" src="<?php echo base_url('assets/images/menu-slider-lunch.png'); ?>" alt="" />
+                      <img width="90%" src="<?php echo base_url('assets/images/breakfast.png'); ?>" alt="" />
                     </div>
                   </div>
                   <div class="col-lg-7">
@@ -803,7 +803,7 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                       <div class="item-right">
                         <span class="item-price">
                           <span class="price-symbol">Rs</span>
-                          70</span>
+                          60</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -819,7 +819,7 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                       <div class="item-right">
                         <span class="item-price">
                           <span class="price-symbol">Rs</span>
-                          80</span>
+                          70</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -990,16 +990,16 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
               <div class="slider-nav-wrapper mx-5">
                 <div class="slider-nav">
                   <div class="slider-nav-img active">
-                    <img src="<?php echo base_url('assets/images/testi-1.jpg') ?>" alt="" />
+                    <img src="<?php echo base_url('assets/images/testi-1.jpg') ?>" alt="1" />
                   </div>
                   <div class="slider-nav-img">
-                    <img src="<?php echo base_url('assets/images/testi-2.jpg') ?>" alt="" />
+                    <img src="<?php echo base_url('assets/images/testi-2.jpg') ?>" alt="2" />
                   </div>
                   <div class="slider-nav-img">
-                    <img src="<?php echo base_url('assets/images/testi-3.jpg') ?>" alt="" />
+                    <img src="<?php echo base_url('assets/images/testi-3.jpg') ?>" alt="3" />
                   </div>
                   <div class="slider-nav-img">
-                    <img src="<?php echo base_url('assets/images/testi-4.jpg') ?>" alt="" />
+                    <img src="<?php echo base_url('assets/images/testi-4.jpg') ?>" alt="4" />
                   </div>
                 </div>
               </div>
@@ -1020,7 +1020,7 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
         <div class="row our-chef-slider-wrapper py-5" data-aos="fade-left">
           <div class="col-lg-4">
             <div class="our-chef-slider d-flex flex-column align-items-center gap-4">
-              <img width="200px" src="<?php echo base_url('assets/images/team-1.png'); ?>" alt="" />
+              <img width="200px" src="<?php echo base_url('assets/images/team-1.png'); ?>" alt="team-1" />
               <div class="chef-slider-content">
                 <h5 class="text-center d-block">Arjun Patel</h5>
                 <p class="text-center mb-0">Head Chef</p>
