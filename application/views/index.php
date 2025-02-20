@@ -26,15 +26,7 @@
 </head>
 
 <body>
-  <!-- <div class="loader">
-      <i class="fas fa-utensils loader-icone"></i>
-      <p>Restoran</p>
-      <div class="loader-ellipses">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div> -->
+ 
 
   <header>
     <div class="container header my-3 d-none d-lg-flex">

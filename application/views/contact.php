@@ -244,12 +244,12 @@
           <div class="col-lg-8">
             <div class="form">
               <h2 class="mb-5 position-relative display-6 fw-bold" data-aos="fade-right">Get In Touch</h2>
-              <form  method="POST"  action="<?php echo base_url().'Contact/contact';?>"class="position-relative">
+              <form  method="POST"  action="<?php echo base_url().'Contact/submitContact';?>"class="position-relative">
                 <div class="input-group">
                   <div class="icon-wrapper d-flex align-items-center position-relative">
                     <i class="fa fa-user py-2 px-3"></i>
                   </div>
-                  <input class="form-control bg-transparent border-0 px-3" type="text" value="<?php echo set_value('name') ?>" name="name" placeholder="name">
+                  <input class="form-control bg-transparent border-0 px-3" type="text" value="<?php echo set_value('name') ?>" name="name" placeholder="Name">
                 </div>
                 <div class="input-group">
                   <div class="icon-wrapper d-flex align-items-center position-relative">

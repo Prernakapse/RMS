@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <head>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-  <title>Admin Dashboard</title>
- <style>
+  <title>Orders</title>
+  <style>
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -111,7 +109,6 @@ body {
   left: 120%;
 }
 
-
 .cards {
   display: flex;
   justify-content: center;
@@ -122,10 +119,9 @@ body {
 
 #two {
   background-color: #F5F5F5;
-
 }
-
-  .card {
+ 
+.card {
   border: 1px solid black;
   border-radius: 8px;
   box-shadow: 1px 1px 5px grey;
@@ -138,7 +134,7 @@ body {
 
 #two h1 {
   text-align: center;
-  margin-left:0%;
+  margin-left:10%;
 }
 
 .card h2 {
@@ -190,6 +186,8 @@ button {
     border-radius: 5px;
     margin: 5px;
     transition: all 0.3s ease-in-out;
+    margin:10px 0 0 750%;
+    width:100px;
 }
 
 /* Accept button (Green) */
@@ -230,7 +228,7 @@ button:focus {
   <div class="sidebar">
     <h2>Admin Panel</h2>
     <ul>
-      <li class="active"><a href="<?php echo base_url().'Booking/index';?>">Dashboard</a></li>
+    <li class="active"><a href="<?php echo base_url().'Booking/index';?>">Dashboard</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/customer';?>">Customers</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/order';?>">Orders</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/user';?>">Users</a></li>
@@ -246,136 +244,122 @@ button:focus {
        <div class="heading">
           <h1>Welcome to the Admin Panel</h1>
        </div>
-       <div class="btn">
-    <form action="<?= base_url('Welcome/logout'); ?>" method="post">
-        <button type="submit">Log Out</button>
-    </form>
-</div>
 
+       <div class="btn">
+          <button>Log Out</button>
+       </div>
 
   </div>
 </section>
 
 <section id="two">
 
-  <h1>Dashboard Overview</h1>
+  <h1>Orders</h1>
 
-   <div class="cards">
-
-     <div class="card">
-         <h4>Total Customers</h4>
-         <p>10</p>
-     </div>
-
-     <div class="card">
-         <h4>Total Orders</h4>
-         <p>10</p>
-     </div>
-
-     <div class="card">
-         <h4>Total Users</h4>
-         <p>10</p>
-     </div>
-
-</div>
 </section>
 
 
 
 <section id="three">
  <table>
- 
-  <thead>
+   <thead>
        <tr>
-          <th>ID</th>
+          <th>Sr.No</th>
           <th>Name</th>
           <th>Phone</th>
-          <th>No. of Persons</th>
-          <th>Date</th>
-          <th>Time</th>
-          <th>Message</th>
-          <th>Action</th>
-       </tr>
+          <th>Email</th>
+          <th>Address</th>  
+        </tr>
 </thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Payal</td>
+        <td>9975812064</td>
+        <td>payal@gmail.com</td>
+        <td>Pandit Colony, Nashik</td>   
+    </tr>
+      
+    <tr>
+        <td>2</td>
+        <td>Prerna</td>
+        <td>9156943109</td>
+        <td>prerna@gmail.com</td>
+        <td>Pune</td>   
+    </tr>
 
-<tbody>
-            <?php if (!empty($book_table)) : ?>
-                <?php $i = 1; foreach ($book_table as $booking) : ?>
-                    <tr>
-                        <td><?= $i++; ?></td>
-                        <!-- <td><?= htmlspecialchars($booking['id']); ?></td> -->
-                        <td><?= htmlspecialchars($booking['name']); ?></td>
-                         <td><?= htmlspecialchars($booking['phone']); ?></td>
-                         <td><?= htmlspecialchars($booking['person']); ?></td>
-                        <td><?= htmlspecialchars($booking['date']); ?></td>
-                        <td><?= htmlspecialchars($booking['time']); ?></td>
-                        <td><?= htmlspecialchars($booking['message']); ?></td>
-                        <td>
-                          <button type="button" class="accept-btn btn btn-success" data-id="<?= $customer['id'] ?>">Accept</button>
-                          <button type="button" class="reject-btn btn btn-danger" data-id="<?= $customer['id'] ?>">Reject</button>
-                        </td>
+    <tr>
+        <td>3</td>
+        <td>Ritesh</td>
+        <td>1234567890</td>
+        <td>ritesh@gmail.com</td>
+        <td>Nashik</td>   
+    </tr>
 
- 
-                      </tr>
-                <?php endforeach; ?>
-            <?php else : ?>
-                <tr>
-                    <td colspan="8">No records found.</td>
-                </tr>
-            <?php endif; ?>
-        </tbody>
+    <tr>
+        <td>4</td>
+        <td>Bhumi</td>
+        <td>9975812064</td>
+        <td>bhumi@gmail.com</td>
+        <td>Pandit Colony, Nashik</td>   
+    </tr>
+
+    <tr>
+        <td>5</td>
+        <td>Vaibhavi</td>
+        <td>1234567890</td>
+        <td>vaibhavi@gmail.com</td>
+        <td>Wagholi</td>   
+    </tr>
+
+    <tr>
+        <td>6</td>
+        <td>prerna</td>
+        <td>9975812064</td>
+        <td>prerna@gmail.com</td>
+        <td>Pune</td>   
+    </tr>
+
+    <tr>
+        <td>7</td>
+        <td>Pauravi</td>
+        <td>9876543210</td>
+        <td>pauravi@gmail.com</td>
+        <td>Pandit Colony, Nashik</td>   
+    </tr>
+
+    <tr>
+        <td>8</td>
+        <td>Dhanu</td>
+        <td>1234567890</td>
+        <td>dhanu@gmail.com</td>
+        <td>Nashik</td>   
+    </tr>
+
+    <tr>
+        <td>9</td>
+        <td>payal</td>
+        <td>9975812064</td>
+        <td>payal@gmail.com</td>
+        <td>Pandit Colony, Nashik</td>   
+    </tr>
+
+    <tr>
+        <td>10</td>
+        <td>Bhumi</td>
+        <td>9975812064</td>
+        <td>bhumi@gmail.com</td>
+        <td> Nashik</td>   
+    </tr>
+
+
+    </tbody>
 </table>
 
 </section>
 <!-- Bootstrap 4/5 JS and jQuery -->
-<script>
-$(document).ready(function() {
-    $(".accept-btn").click(function() {
-        var customerId = $(this).data("id");
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 
-        $.ajax({
-            url: "<?= base_url('admin/accept_customer') ?>",
-            type: "POST",
-            data: { id: customerId },
-            success: function(response) {
-                Swal.fire({
-                    title: 'Request Accepted!',
-                    icon: 'success',
-                    timer: 2000,
-                    showConfirmButton: false
-                }).then(() => {
-                    window.location.href = "<?= base_url('admin/customers'); ?>"; // Redirect to customer list
-                });
-            },
-            error: function() {
-                Swal.fire('Error!', 'Something went wrong.', 'error');
-            }
-        });
-    });
-
-    $(".reject-btn").click(function() {
-        var customerId = $(this).data("id");
-
-        $.ajax({
-            url: "<?= base_url('admin/reject_customer') ?>",
-            type: "POST",
-            data: { id: customerId },
-            success: function(response) {
-                Swal.fire({
-                    title: 'Request Rejected!',
-                    icon: 'error',
-                    timer: 2000,
-                    showConfirmButton: false
-                }).then(() => {
-                    window.location.href = "<?= base_url('admin/customers'); ?>"; // Redirect to customer list
-                });
-            },
-            error: function() {
-                Swal.fire('Error!', 'Something went wrong.', 'error');
-            }
-        });
-    });
-});
-</script>
 </body>
 </html>

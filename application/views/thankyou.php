@@ -23,20 +23,9 @@
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0px 4px 10px rgba(255, 140, 0, 0.3);
+            margin-top:20%;
         }
-        .btn-book {
-            background-color:#e5612f; 
-            border: none;
-            padding: 12px 20px;
-            font-size: 18px;
-            color: white;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        .btn-book:hover {
-            color:black;
-            background-color:white;
-        }
+       
     </style>
 </head>
 <body>
@@ -44,10 +33,7 @@
     <div class="container">
         <div class="thank-you-box">
             <h1>Thank You for Checking Availability!</h1>
-            <p>We found a table for you on **[Selected Date] at [Selected Time]** for **[Number of Guests]**.</p>
-            <p>Click below to confirm your reservation.</p>
-            <a href="book-a-table.html" class="btn btn-book">Book Your Table Now</a>
-        </div>
+         </div>
     </div>
 
 </body>

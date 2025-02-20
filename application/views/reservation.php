@@ -14,8 +14,7 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>" />
 
-  
-  <style>
+    <style>
     <?php $this->load->view('style') ?>
   </style>
 </head>
@@ -225,8 +224,8 @@
 
   <main class="reservation-page">
     <section class="page-banner d-flex align-items-center">
-<div class="container" style="background-image: url('<?= base_url('assets/images/pagetitle-reservation.jpg') ?>');">
-      
+ <div class="container" >
+       
         <div class="row">
           <div class="banner-content">
             <h2 class="text-white display-3 text-center" data-aos="fade-right" data-aos-delay="3000">Reservation</h2>
@@ -259,7 +258,7 @@
                     <div class="icon-wrapper d-flex align-items-center position-relative">
                       <i class="fa fa-user py-2 px-3"></i>
                     </div>
-                    <input class="form-control bg-transparent border-0 px-3" value="<?php echo set_value('username') ?>" name="username" type="text" placeholder="Username">
+                    <input class="form-control bg-transparent border-0 px-3" value="<?php echo set_value('name') ?>" name="name" type="text" placeholder="Username">
                   </div>
                   <div class="input-group">
                     <div class="icon-wrapper d-flex align-items-center position-relative">
@@ -271,7 +270,7 @@
                     <div class="icon-wrapper d-flex align-items-center position-relative">
                       <i class="fa fa-calendar py-2 px-3"></i>
                     </div>
-                    <input class="form-control bg-transparent border-0 px-3" name="created_at" value="<?php echo set_value('created_at') ?>" type="date" placeholder="Date">
+                    <input class="form-control bg-transparent border-0 px-3" name="date" value="<?php echo set_value('date') ?>" type="date" placeholder="Date">
                   </div>
                 </div>
                 <div data-aos="fade-left" class="col-md-6">
@@ -279,7 +278,7 @@
                     <div class="icon-wrapper d-flex align-items-center position-relative">
                       <i class="fa fa-envelope py-2 px-3"></i>
                     </div>
-                    <input class="form-control bg-transparent border-0 px-3"  name="email" value="<?php echo set_value('email') ?>"  type="email" placeholder="Email">
+                    <input class="form-control bg-transparent border-0 px-3"  name="email" value="<?php echo set_value('email') ?>"  type="text" placeholder="Email">
                   </div>
                   <div class="input-group">
                     <div class="icon-wrapper d-flex align-items-center position-relative">

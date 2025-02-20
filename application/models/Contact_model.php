@@ -10,14 +10,13 @@ class Contact_model extends CI_Model {
     // Insert contact data into the database
     public function contact($data) {
         $this->db->insert('contact', $data);
-        
-   
-    }
 
+    }
+    
     // Fetch all contacts
     public function get_contacts() {
         $query = $this->db->get('contact'); // Fetch all records from 'contact' table
-        return $query->result_array(); // Return as an array
+        return $query->result_array(); // Return as  array
     }
 
     // Fetch a single contact by ID
@@ -33,5 +32,9 @@ class Contact_model extends CI_Model {
         
         // Check if delete was successful
         return $this->db->affected_rows() > 0;
+    }
+
+     public function delete_contact($id) {
+        return $this->db->delete('contact', array('id' => $id)); // Ensure 'bookings' is your actual table name
     }
 }

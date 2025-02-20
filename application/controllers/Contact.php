@@ -2,53 +2,55 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Contact extends CI_Controller {
-
     public function __construct() {
         parent::__construct();
-        $this->load->model('Contact_model');
+        $this->load->model('Contact_model'); // Load the model
+        $this->load->helper(array('form', 'url')); // Load form helper
+        $this->load->library('form_validation'); // Load form validation library
     }
 
-    // Display list of contacts
-    public function index() {
-        $data['contacts'] = $this->Contact_model->get_contacts(); // Fetch all contacts
-        $this->load->view('contact_list', $data); // Pass data to view
-    }
+    public function submitContact() {
+        // Collect form data
+        $formData = $this->input->post();
 
-    // Handle contact form submission
-    public function contact() {
-        
-    // Set validation rules
-    $this->form_validation->set_rules('name', 'name', 'required');
-    $this->form_validation->set_rules('phone', 'Phone', 'required');
-    $this->form_validation->set_rules('email', 'Email', 'required|valid_email'); 
-    $this->form_validation->set_rules('message', 'Message', 'required');
-
-
-        // Load contact form view initially or after validation errors
-        if ($this->form_validation->run() == FALSE) {
-            $this->load->view('contact');
+        // Insert data into the database
+        if ($this->Contact_model->contact($formData)) {
+            $this->session->set_flashdata('success', 'Contact successfully submitted!');
+            redirect('Contact/success'); // Redirect to a success page
         } else {
-            // Prepare sanitized data for insertion
-            $data = array(
-                'name' => $this->input->post('name', TRUE),
-                'phone'    => $this->input->post('phone', TRUE),
-                'email'    => $this->input->post('email', TRUE),
-                'message'  => $this->input->post('message', TRUE),
-            );
-
-            // Insert data into the database
-            if ($this->Contact_model->contact($data)) {
-                $this->session->set_flashdata('success', 'Message sent successfully!');
-                $this->load->view('thankyou');
-            } else {
-                $this->session->set_flashdata('error', 'Failed to send message. Please try again.');
-                redirect('Contact/contact');
-            }
+            $this->session->set_flashdata('error', 'Failed to submit booking. Try again.');
+            redirect('Home/Contact'); // Reload form
         }
     }
 
-    public function contactList() {
-        $data['contacts'] = $this->Contact_model->get_contacts();
-        $this->load->view('contact_list', $data);
+    public function submit() {
+        $this->load->view('contact_list'); // Load the booking form view
     }
-}
+
+    public function success() {
+        $this->load->view('thankyou'); // Load the booking form view
+    }
+    
+    
+    public function index() {
+        $data['contact'] = $this->Contact_model->get_contacts();
+        $this->load->view('Admin', $data);
+    }
+
+    public function customer(){
+        $this->load->view('customers');
+    }
+
+    public function order(){
+        $this->load->view('orders');
+    }
+
+    public function user(){
+        $this->load->view('users');
+    }
+
+    public function privacy(){
+        $this->load->view('privacy');
+    }
+} 
+?>

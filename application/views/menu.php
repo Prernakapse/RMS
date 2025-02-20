@@ -304,8 +304,8 @@
             <div class="row my-5 py-3">
               <div class="col-lg-5">
                 <div class="pb-5 pb-lg-0">
-                  <img width="90%" src="./assets/images/menu-slider-dessert.png" alt="">
-                </div>
+                 <img width=90% src="<?php echo base_url("/assets/images/menu-slider-dessert.png") ?>" alt="">
+                  </div>
               </div>
               <div class="col-lg-7">
                 <div class="item-wrapper d-flex justify-content-between">
