@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Restoran - Reservation</title>
+  <title>Dinsphere - Reservation</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,12 +13,16 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>" />
+
+<style>
+  <?php $this->load->view('style') ?>
+</style>
 </head>
 
 <body>
   <div class="loader">
     <i class="fas fa-utensils loader-icone"></i>
-    <p>Restoran</p>
+    <p>Dinsphere</p>
     <div class="loader-ellipses">
       <span></span>
       <span></span>
@@ -31,7 +35,7 @@
       <div class="logo">
         <a href="./index">
           <i class="fa fa-utensils me-3 text-dark"></i>
-          <h1 class="mb-0 text-dark">Restoran</h1>
+          <h1 class="mb-0 text-dark">Dinsphere</h1>
         </a>
       </div>
       <div class="menus">
@@ -71,7 +75,7 @@
         <div class="logo">
           <a href="./index">
             <i class="fa fa-utensils me-3 text-dark"></i>
-            <h1 class="mb-0 text-dark">Restoran</h1>
+            <h1 class="mb-0 text-dark">Dinsphere</h1>
           </a>
         </div>
       </div>
@@ -355,7 +359,7 @@
               <span class="number">1</span>
             </div>
             <h4>Reservation</h4>
-            <p class="text-center">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et
+            <p class="text-center">Secure your table in advance for a seamless dining experience.
             </p>
           </div>
           <div data-aos="fade-down"
@@ -365,7 +369,7 @@
               <span class="number">2</span>
             </div>
             <h4>Private Event</h4>
-            <p class="text-center">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et
+            <p class="text-center">Host exclusive gatherings with customized dining and ambiance.
             </p>
           </div>
           <div data-aos="fade-up"
@@ -375,7 +379,7 @@
               <span class="number">3</span>
             </div>
             <h4>Online Order</h4>
-            <p class="text-center">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et
+            <p class="text-center">Enjoy your favorite dishes from the comfort of your home.
             </p>
           </div>
           <div data-aos="fade-left"
@@ -385,7 +389,7 @@
               <span class="number">4</span>
             </div>
             <h4>Fast Delivery</h4>
-            <p class="text-center">Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod incididunt utote labore et
+            <p class="text-center">Fresh and flavorful food delivered to your doorstep quickly.
             </p>
           </div>
         </div>
@@ -512,8 +516,8 @@
               <div class="logo" data-aos="fade-down-right">
                 <a href="./index">
                   <i class="fa fa-utensils me-3"></i>
-                  <h1 class="mb-0">Restoran</h1>
-                </a>
+                  <h1 class="mb-0">Dinsphere</h1>
+                </a>D
               </div>
             </div>
             <div data-aos="fade-down"
@@ -533,9 +537,8 @@
             </div>
           </div>
           <div class="row pt-5 content-desc" data-aos="fade-right">
-            <p class="px-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-              ut aliquip ex ea commodo consequat Duis aute irure dolor.</p>
+            <p class="px-0">"Delicious flavors, fresh ingredients, and unforgettable dining—experience excellence with every 
+            bite at Dinsphere"</p>
           </div>
           <div class="row" data-aos="fade-right">
             <div class="d-flex flex-column flex-lg-row px-0 justify-content-between">
@@ -543,8 +546,8 @@
                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
-                    157 White Oak Drive Kansas City <br>
-                    689 Lynn Street South Boston
+                  12, MG Road, Indiranagar, Bengaluru, Karnataka - 560038 <br>
+                  45, Connaught Place, New Delhi, Delhi - 110001
                   </p>
                 </div>
               </div>
@@ -552,8 +555,8 @@
                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
-                    (617)-276-8031 <br>
-                    (617)-276-8031
+                    1234567890 <br>
+                    0987654321
                   </p>
                 </div>
               </div>
@@ -589,9 +592,9 @@
         </div>
       </div>
       <div class="row">
-        <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Restoran.</b> All
-          rights reserved. Design by <a href="https://www.linkedin.com/in/codewithshabbir/"
-            class="fw-bold author-name">Restaurent</a></p>
+        <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Dinsphere.</b> All
+          rights reserved. Design by<a href=""
+            class="fw-bold author-name"> Payal & Prerna</a></p>
       </div>
     </div>
   </footer>
