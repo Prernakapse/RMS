@@ -4,7 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<<<<<<< HEAD
   <title>Restoran - Contact</title>
+=======
+  <title>Dinsphere - Contact</title>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,12 +17,23 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>" />
+<<<<<<< HEAD
+=======
+
+  <style>
+     <?php $this->load->view('style') ?>
+  </style>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
 </head>
 
 <body>
   <div class="loader">
     <i class="fas fa-utensils loader-icone"></i>
+<<<<<<< HEAD
     <p>Restoran</p>
+=======
+    <p>Dinsphere</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
     <div class="loader-ellipses">
       <span></span>
       <span></span>
@@ -31,7 +46,11 @@
       <div class="logo">
         <a href="./index">
           <i class="fa fa-utensils me-3 text-dark"></i>
+<<<<<<< HEAD
           <h1 class="mb-0 text-dark">Restoran</h1>
+=======
+          <h1 class="mb-0 text-dark">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
         </a>
       </div>
       <div class="menus">
@@ -71,7 +90,11 @@
         <div class="logo">
           <a href="./index">
             <i class="fa fa-utensils me-3 text-dark"></i>
+<<<<<<< HEAD
             <h1 class="mb-0 text-dark">Restoran</h1>
+=======
+            <h1 class="mb-0 text-dark">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
           </a>
         </div>
       </div>
@@ -228,7 +251,11 @@
               <div class="dot mb-2"></div>
             </div>
             <p class="text-white mb-0 text-center" data-aos="fade-left" data-aos-delay="3000">Let us know if you have
+<<<<<<< HEAD
               any concern about our menu, service or other information you want to have</p>
+=======
+              any concern about our menu, service or other information you want to have!</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
           </div>
         </div>
       </div>
@@ -240,12 +267,20 @@
           <div class="col-lg-8">
             <div class="form">
               <h2 class="mb-5 position-relative display-6 fw-bold" data-aos="fade-right">Get In Touch</h2>
+<<<<<<< HEAD
               <form  method="POST"  action="<?php echo base_url().'Contact/contact';?>"class="position-relative">
+=======
+              <form  method="POST"  action="<?php echo base_url().'Contact/success';?>"class="position-relative">
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 <div class="input-group">
                   <div class="icon-wrapper d-flex align-items-center position-relative">
                     <i class="fa fa-user py-2 px-3"></i>
                   </div>
+<<<<<<< HEAD
                   <input class="form-control bg-transparent border-0 px-3" type="text" value="<?php echo set_value('name') ?>" name="name" placeholder="name">
+=======
+                  <input class="form-control bg-transparent border-0 px-3" type="text" value="<?php echo set_value('name') ?>" name="name" placeholder="Name">
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </div>
                 <div class="input-group">
                   <div class="icon-wrapper d-flex align-items-center position-relative">
@@ -263,7 +298,12 @@
                   <textarea class="form-control bg-transparent border-0 px-3" id="" value="<?php echo set_value('message') ?>" name="message" placeholder="Message"></textarea>
                 </div>
 
+<<<<<<< HEAD
                  <button type="submit" value="send" >Send</button>
+=======
+                <button type="submit" value="send" >Send</button>
+              
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
               </form>
             </div>
           </div>
@@ -277,8 +317,13 @@
                   </div>
                   <div class="ps-3">
                     <p class="mb-0">
+<<<<<<< HEAD
                       <b>Restaurent 1</b> <br>
                       157 White Oak Drive Kansas City
+=======
+                      <b>Restaurant 1</b> <br>
+                      12, MG Road, Indiranagar, Bengaluru, Karnataka - 560038
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </p>
                   </div>
                 </div>
@@ -288,8 +333,13 @@
                   </div>
                   <div class="ps-3">
                     <p class="mb-0">
+<<<<<<< HEAD
                       <b>Restaurent 2</b> <br>
                       158 White Oak Drive Kansas City
+=======
+                      <b>Restaurant 2</b> <br>
+                      45, Connaught Place, New Delhi, Delhi - 110001
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </p>
                   </div>
                 </div>
@@ -300,7 +350,11 @@
                   <div class="ps-3">
                     <p class="mb-0">
                       <b>Phone Number</b> <br>
+<<<<<<< HEAD
                       (012) 978 645 312
+=======
+                      1234567890
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </p>
                   </div>
                 </div>
@@ -376,7 +430,11 @@
               <div class="logo" data-aos="fade-down-right">
                 <a href="./index">
                   <i class="fa fa-utensils me-3"></i>
+<<<<<<< HEAD
                   <h1 class="mb-0">Restaurant</h1>
+=======
+                  <h1 class="mb-0">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </a>
               </div>
             </div>
@@ -397,9 +455,14 @@
             </div>
           </div>
           <div class="row pt-5 content-desc" data-aos="fade-right">
+<<<<<<< HEAD
             <p class="px-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
               ut aliquip ex ea commodo consequat Duis aute irure dolor.</p>
+=======
+            <p class="px-0">"Delicious flavors, fresh ingredients, and unforgettable dining—experience excellence
+            with every bite at Dinsphere"</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
           </div>
           <div class="row" data-aos="fade-right">
             <div class="d-flex flex-column flex-lg-row px-0 justify-content-between">
@@ -407,8 +470,13 @@
                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
+<<<<<<< HEAD
                     157 White Oak Drive Kansas City <br>
                     689 Lynn Street South Boston
+=======
+                  12, MG Road, Indiranagar, Bengaluru, Karnataka - 560038 <br>
+                  45, Connaught Place, New Delhi, Delhi - 110001
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </p>
                 </div>
               </div>
@@ -416,8 +484,13 @@
                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
+<<<<<<< HEAD
                     (617)-276-8031 <br>
                     (617)-276-8031
+=======
+                    1234567890 <br>
+                    9876543210
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </p>
                 </div>
               </div>
@@ -436,7 +509,11 @@
         <div class="col-xl-4">
           <div class="reservation-box" data-aos="fade-down-left">
             <div class="reservation-wrapper">
+<<<<<<< HEAD
               <h2>Open Hour</h2>
+=======
+              <h2>Open Hours</h2>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
               <div class="reservation-date-time">
                 <p>Tuesday: .......................... 7AM - 9PM</p>
                 <p>Wednesday: ..................... 7AM - 9PM</p>
@@ -453,9 +530,15 @@
         </div>
       </div>
       <div class="row">
+<<<<<<< HEAD
         <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Restoran.</b> All
           rights reserved. Design by <a href="https://www.linkedin.com/in/codewithshabbir/"
             class="fw-bold author-name">Muhammad Shabbir</a></p>
+=======
+        <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Dinsphere.</b> All
+          rights reserved. Design by <a href=""
+            class="fw-bold author-name">Payal & Prerna</a></p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
       </div>
     </div>
   </footer>

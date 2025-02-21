@@ -56,5 +56,16 @@ $route['translate_uri_dashes'] = FALSE;
 $route['display'] = 'blog/display';
 $route['blog/read_more/(:num)'] = 'blog/read_more/$1';
 $route['booking'] = 'booking/index';
+<<<<<<< HEAD
 $route['booking/submit'] = 'booking/submit';
 $route['booking/list'] = 'booking/list';
+=======
+$route['booking/list'] = 'booking/list';
+$route['bookings'] = 'BookController/index';
+$route['Admin'] = 'Welcome/Admin';
+// $route['Booking/submit'] = 'Booking/submit';
+$route['Booking/booktable'] = 'Booking/booktable';
+$route['Booking/thankyou'] = 'Booking/thankyou';
+$route['Welcome/logout'] = 'Welcome/logout';
+
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0

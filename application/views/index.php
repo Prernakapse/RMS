@@ -3,7 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<<<<<<< HEAD
   <title>Restoran</title>
+=======
+  <title>Dinsphere</title>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
   <!-- Font Awesome (icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -27,7 +31,11 @@
 <body>
   <!-- <div class="loader">
       <i class="fas fa-utensils loader-icone"></i>
+<<<<<<< HEAD
       <p>Restoran</p>
+=======
+      <p>Restaurant</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
       <div class="loader-ellipses">
         <span></span>
         <span></span>
@@ -40,7 +48,11 @@
       <div class="logo">
         <a href="<?php echo base_url() . 'Home/Index'; ?>">
           <i class="fa fa-utensils me-3"></i>
+<<<<<<< HEAD
           <h1 class="mb-0">Restaurant</h1>
+=======
+          <h1 class="mb-0">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
         </a>
       </div>
       <div class="menus">
@@ -82,7 +94,11 @@
         <div class="logo">
           <a href="./index">
             <i class="fa fa-utensils me-3"></i>
+<<<<<<< HEAD
             <h1 class="mb-0">Restaurant</h1>
+=======
+            <h1 class="mb-0">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
           </a>
         </div>
       </div>
@@ -199,8 +215,14 @@
           <!-- <img src="./assets/images/product-2d.jpg" alt="" /> -->
 
           <img src="<?php echo base_url('assets/images/product-2d.jpg'); ?>" />
+<<<<<<< HEAD
 
         </div>
+=======
+        </div>
+
+
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
         <div class="col-8">
           <h3>dd</h3>
           <div class="shopping-cart-counter">
@@ -247,7 +269,11 @@
               Delicious Meal
             </h1>
             <p>
+<<<<<<< HEAD
             Experience the perfect blend of flavors and aromas at our restaurant, 
+=======
+            Experience the perfect blend of flavors and aromas at our DineSphere Resstaurant, 
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
             where every dish is crafted with passion and authenticity. Indulge in 
             a delightful dining experience with fresh ingredients and a warm ambiance.
             </p>
@@ -329,7 +355,11 @@
               </div>
               <div class="para">
                 <p>
+<<<<<<< HEAD
                 Our restaurant is open round the clock to serve you delicious meals at any hour, ensuring you never go hungry, day or night.
+=======
+                Our Dinsphere restaurant is open round the clock to serve you delicious meals at any hour, ensuring you never go hungry, day or night.
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </p>
               </div>
             </div>
@@ -362,10 +392,17 @@
           <div class="col-lg-6 about-content" data-aos="fade-left">
             <h5 class="section-title">About Us</h5>
             <h2 class="mb-4 dis">
+<<<<<<< HEAD
               Welcome to <i class="fa fa-utensils me-2"></i>Restaurant
             </h2>
             <p class="mb-4">
             Welcome to our restaurant, where passion meets flavor! We take 
+=======
+              Welcome to <i class="fa fa-utensils me-2"></i>Dinsphere
+            </h2>
+            <p class="mb-4">
+            Welcome to our Dinsphere restaurant, where passion meets flavor! We take 
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
             pride in serving mouthwatering dishes made with the freshest 
             ingredients, bringing you an unforgettable dining experience.
             </p>
@@ -411,6 +448,7 @@
             <h2 class="display-5 fw-bold">Tasty And Good Price</h2>
           </div>
         </div>
+<<<<<<< HEAD
         <div class="row position-relative">
           <div data-aos="fade-left" class="slider slider-indicators-wrapper justify-content-center">
             <div class="slider-indicators">
@@ -455,22 +493,36 @@
             </div>
           </div>
         </div>
+=======
+        
+
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
         <div id="our-menus" class="slider" data-aos="fade-up">
           <div>
             <div class="row my-5 py-3">
               <div class="col-lg-5">
                 <div class="pb-5 pb-lg-0">
+<<<<<<< HEAD
                   <img width="90%" src="<?php echo base_url('assets/images/menu-slider-dessert.png'); ?>" alt="" />
 
+=======
+                  <img width="90%" src="<?php echo base_url('assets/images/breakfast.png'); ?>" alt="" />
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </div>
               </div>
               <div class="col-lg-7">
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
+<<<<<<< HEAD
                     <h5>Gulab Jamun</h5>
                     <p>
                     Soft, round dumplings made from milk solids, deep-fried to perfection, and soaked in a warm, sweet sugar syrup
                     </p>
+=======
+                    <h5>Masala Dosa</h5>
+                    <p>
+                    Crispy, thin rice crepe filled with a spiced potato mixture, served with coconut chutney and tangy sambar.                    </p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </div>
                   <div class="item-right">
                     <span class="item-price">
@@ -483,15 +535,25 @@
                 </div>
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
+<<<<<<< HEAD
                     <h5>Rasgulla</h5>
                     <p>
                     Delicate, spongy, and mouth-watering white cheese balls soaked in a light sugar syrup.
+=======
+                    <h5>Poha</h5>
+                    <p>
+                    Light and flavorful rice flakes sautéed with mustard seeds, turmeric, and veggies, garnished with fresh coriander and peanuts.
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </p>
                   </div>
                   <div class="item-right">
                     <span class="item-price">
                       <span class="price-symbol">Rs</span>
+<<<<<<< HEAD
                       80</span>
+=======
+                      30</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     <div class="item-btn">
                       <a href="#">Order</a>
                     </div>
@@ -499,10 +561,50 @@
                 </div>
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
+<<<<<<< HEAD
                     <h5>Gajar Halwa</h5>
                     <p>
                     A warm and delicious pudding made from grated carrots, milk, sugar, and ghee, 
                     topped with dry fruits. It's a rich and comforting dessert, perfect for any occasion.
+=======
+                    <h5>Upma</h5>
+                    <p>
+                    Savory semolina dish cooked with vegetables, mustard seeds, 
+                    and curry leaves, offering a wholesome start to your day.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      50</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Idli</h5>
+                    <p>
+                    Soft and fluffy steamed rice cakes, served with coconut chutney and
+                    spicy sambar for a healthy breakfast option.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      50</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Misal Pav</h5>
+                    <p>
+                    Spicy sprouts curry served with soft bread rolls, a hearty and flavorful breakfast from Maharashtra.
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </p>
                   </div>
                   <div class="item-right">
@@ -514,18 +616,44 @@
                     </div>
                   </div>
                 </div>
+<<<<<<< HEAD
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
                     <h5>Fruit Custard</h5>
                     <p>
                     A creamy, refreshing dessert made with a mix of fresh fruits and sweetened vanilla
                      custard, perfect for a light, delicious treat.
+=======
+              </div>
+              <div>
+
+
+
+              <div id="our-menus" class="slider" data-aos="fade-up">
+          <div>
+            <div class="row my-5 py-3">
+              <div class="col-lg-5">
+                <div class="pb-5 pb-lg-0">
+                  <img width="90%" src="<?php echo base_url('assets/images/lunch.jpg'); ?>" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Paneer Butter Masala</h5>
+                    <p>
+                    A rich and creamy curry made with paneer cubes simmered in a spiced tomato-based gravy.
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </p>
                   </div>
                   <div class="item-right">
                     <span class="item-price">
                       <span class="price-symbol">Rs</span>
+<<<<<<< HEAD
                       65</span>
+=======
+                      130</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     <div class="item-btn">
                       <a href="#">Order</a>
                     </div>
@@ -533,7 +661,59 @@
                 </div>
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
+<<<<<<< HEAD
                     <h5>Ice-cream</h5>
+=======
+                    <h5>Aloo Paratha</h5>
+                    <p>
+                    Soft whole wheat flatbread stuffed with spiced mashed potatoes, served with curd and pickle.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      80</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Veg Pulao</h5>
+                    <p>
+                    A flavorful rice dish made with seasonal vegetables and mild spices, perfect for a light meal.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      90</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Butter Naan</h5>
+                    <p>
+                    Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and gravies.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      60</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Dum Aloo</h5>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     <p>
                     A creamy, frozen dessert available in a variety of flavors, perfect for a refreshing treat any time of the day.
                     </p>
@@ -549,11 +729,24 @@
                 </div>
               </div>
               <div>
+<<<<<<< HEAD
                 <div class="row my-5 py-3">
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
                       <!-- <img width="90%" src="./assets/images/menu-slider-dinner.png" alt="" /> -->
                       <img width="90%" src="<?php echo base_url('assets/images/lunch.jpg'); ?>" alt="" />
+=======
+
+
+
+
+
+                <div class="row my-5 py-3">
+                  <div class="col-lg-5">
+                    <div class="pb-5 pb-lg-0">
+                      <!-- <img width="90%" src="./assets/images/menu-slider-dinner.jpg" alt="" /> -->
+                      <img width="90%" src="<?php echo base_url('assets/images/Dine.png'); ?>" alt="" />
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </div>
                   </div>
                   <div class="col-lg-7">
@@ -645,21 +838,37 @@
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
                       <!-- <img width="90%" src="./assets/images/menu-slider-dessert.png" alt="" /> -->
+<<<<<<< HEAD
                       <img width="90%" src="<?php echo base_url('assets/images/lunch.jpg'); ?>" alt="" />
+=======
+                      <img width="90%" src="<?php echo base_url('assets/images/cake.jpg'); ?>" alt="" />
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </div>
                   </div>
                   <div class="col-lg-7">
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
+<<<<<<< HEAD
                         <h5>Paneer Butter Masala</h5>
                         <p>
                         A rich and creamy curry made with paneer cubes simmered in a spiced tomato-based gravy.
                         </p>
+=======
+                        <h5> Gulab Jamun</h5>
+                        <p>
+                        Soft, deep-fried khoya dumplings soaked in fragrant rose-flavored sugar syrup. Served warm 
+                        for a melt-in-the-mouth experience.
+</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                       </div>
                       <div class="item-right">
                         <span class="item-price">
                           <span class="price-symbol">Rs</span>
+<<<<<<< HEAD
                           130</span>
+=======
+                          50</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -667,10 +876,17 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
+<<<<<<< HEAD
                         <h5>Aloo Paratha</h5>
                         <p>
                         Soft whole wheat flatbread stuffed with spiced mashed potatoes, served with curd and pickle.
                         </p>
+=======
+                        <h5>Rasmalai </h5>
+                        <p>
+                        Delicate, spongy cottage cheese discs soaked in rich, saffron-infused milk, garnished with slivered 
+                        almonds and pistachios.</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                       </div>
                       <div class="item-right">
                         <span class="item-price">
@@ -683,15 +899,26 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
+<<<<<<< HEAD
                         <h5>Veg Pulao</h5>
                         <p>
                         A flavorful rice dish made with seasonal vegetables and mild spices, perfect for a light meal.
                         </p>
+=======
+                        <h5>Choco Lava Cake </h5>
+                        <p>
+                        A warm, soft chocolate cake with a gooey molten chocolate center, served with a scoop of vanilla ice cream for
+                         the perfect contrast of hot and cold.</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                       </div>
                       <div class="item-right">
                         <span class="item-price">
                           <span class="price-symbol">Rs</span>
+<<<<<<< HEAD
                           90</span>
+=======
+                          70</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -699,10 +926,17 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
+<<<<<<< HEAD
                         <h5>Butter Naan</h5>
                         <p>
 Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and gravies.
                         </p>
+=======
+                        <h5>Caramel Custard Pudding</h5>
+                        <p>
+                        A smooth and silky caramel custard with a rich caramel glaze on top, offering a melt-in-your-mouth experience 
+                        with every spoonful.</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                       </div>
                       <div class="item-right">
                         <span class="item-price">
@@ -715,10 +949,17 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
+<<<<<<< HEAD
                         <h5>Dum Aloo</h5>
                         <p>
                         Baby potatoes cooked in a rich, aromatic tomato-based gravy, 
                         a flavorful dish that pairs perfectly with rice or roti.
+=======
+                        <h5>Berry Bliss Cheesecake </h5>
+                        <p>
+                        A creamy New York-style cheesecake topped with a tangy mixed berry compote, served on a buttery biscuit base 
+                        for a delightful balance of sweet and tart flavors.
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                         </p>
                       </div>
                       <div class="item-right">
@@ -733,21 +974,37 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                   </div>
                 </div>
               </div>
+<<<<<<< HEAD
               <div>
                 <div class="row my-5 py-3">
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
                       <!-- <img width="90%" src="./assets/images/menu-slider-lunch.png" alt="" /> -->
                       <img width="90%" src="<?php echo base_url('assets/images/breakfast.png'); ?>" alt="" />
+=======
+             
+              <div class="row my-5 py-3">
+                  <div class="col-lg-5">
+                    <div class="pb-5 pb-lg-0">
+                      <!-- <img width="90%" src="./assets/images/menu-slider-lunch.png" alt="" /> -->
+                      <img width="90%" src="<?php echo base_url('assets/images/drinks.png'); ?>" alt="" />
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     </div>
                   </div>
                   <div class="col-lg-7">
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
+<<<<<<< HEAD
                         <h5>Masala Dosa</h5>
                         <p>
                         Crispy, thin rice crepe filled with a spiced potato mixture, served with coconut chutney and tangy sambar.</p>
                       </div>
+=======
+                        <h5>Berry Bliss Mocktail</h5>
+                        <p>
+                        A refreshing blend of mixed berries, mint, and freshly squeezed lime, topped with sparkling soda for
+                         a burst of fruity goodness.</div>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                       <div class="item-right">
                         <span class="item-price">
                           <span class="price-symbol">Rs</span>
@@ -759,16 +1016,29 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
+<<<<<<< HEAD
                         <h5> Poha</h5>
                         <p>
                         Light and flavorful rice flakes sautéed with mustard seeds, turmeric,
                          and veggies, garnished with fresh coriander and peanuts.
+=======
+                        <h5> Cold Coffee</h5>
+                        <p>
+                        Smooth, creamy, and perfectly sweetened, our cold coffee is blended with premium espresso and chilled 
+                        milk, topped with a hint of cocoa.
+
+
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
                           <span class="price-symbol">Rs</span>
+<<<<<<< HEAD
                           30</span>
+=======
+                          90</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -776,6 +1046,7 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
+<<<<<<< HEAD
                         <h5>Upma</h5>
                         <p>
                         Savory semolina dish cooked with vegetables, mustard seeds, 
@@ -813,6 +1084,12 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                         <h5>Misal Pav </h5>
                         <p>
                         Spicy sprouts curry served with soft bread rolls, a hearty and flavorful breakfast from Maharashtra.
+=======
+                        <h5>Mango Tango Smoothie</h5>
+                        <p>
+                        A tropical delight made with ripe mangoes, yogurt, and a splash of orange juice for a creamy, 
+                        refreshing summer treat.
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                         </p>
                       </div>
                       <div class="item-right">
@@ -824,6 +1101,42 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                         </div>
                       </div>
                     </div>
+<<<<<<< HEAD
+=======
+                    <div class="item-wrapper d-flex justify-content-between">
+                      <div class="item-left">
+                        <h5>  Lemon Iced Tea</h5>
+                        <p>
+                        A crisp and revitalizing iced tea infused with fresh lemon juice and a touch of honey, served 
+                        over ice for ultimate refreshment.
+                        </p>
+                      </div>
+                      <div class="item-right">
+                        <span class="item-price">
+                          <span class="price-symbol">Rs</span>
+                          40</span>
+                        <div class="item-btn">
+                          <a href="#">Order</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item-wrapper d-flex justify-content-between">
+                      <div class="item-left">
+                        <h5>Special Hot Chocolate</h5>
+                        <p>
+                        Indulgent, rich hot chocolate made with premium dark cocoa, steamed milk, and topped with 
+                        whipped cream and choco shavings.</p>
+                      </div>
+                      <div class="item-right">
+                        <span class="item-price">
+                          <span class="price-symbol">Rs</span>
+                          50</span>
+                        <div class="item-btn">
+                          <a href="#">Order</a>
+                        </div>
+                      </div>
+                    </div>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </div>
                 </div>
               </div>
@@ -934,7 +1247,11 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                 <div>
                   <div class="testi-content">
                     <p>
+<<<<<<< HEAD
                     "Absolutely loved the food at Restaurant! The Paneer Butter 
+=======
+                    "Absolutely loved the food at Dinsphere Restaurant! The Paneer Butter 
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                      Masala was rich and flavorful, and the service was quick. Highly 
                      recommend this place for a great dining experience!"
                     </p>
@@ -960,7 +1277,11 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                 <div>
                   <div class="testi-content">
                     <p>
+<<<<<<< HEAD
                     "I had a wonderful time at this Restaurant! The Chole Bhature was 
+=======
+                    "I had a wonderful time at this Dinsphere Restaurant! The Chole Bhature was 
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                      simply divine, and the staff made us feel at home. I’ll definitely
                      be bringing my friends here soon!"
 
@@ -1171,7 +1492,11 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                 <br><br>
                 Parking: Details about parking availability
                 <br>(e.g., on-site parking, street parking, valet).<br><br>
+<<<<<<< HEAD
                 Wi-Fi: If the restaurant offers free Wi-Fi for customers.
+=======
+                Wi-Fi: If the Dinsphere restaurant offers free Wi-Fi for customers.
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 <br><br>
                 Pet-Friendly: Whether pets are allowed or if there are outdoor seating areas for pets.
 
@@ -1375,11 +1700,16 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                   <span class="month">Jun</span>
                 </div>
                 <h3 class="blog-title">
+<<<<<<< HEAD
                   <a href="javascript:void(0)">Savor the Perfect Bowl of Noodles </a>
+=======
+                  <a href="javascript:void(0)">Savor the Perfect Bowl of Delicious Noodles.</a>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </h3>
                 <p class="blog-description">
                 Enjoy a flavorful bowl of noodles, crafted with fresh ingredients and bold spices. 
                 From spicy Schezwan to creamy garlic butter noodles, there's a perfect choice for every craving!
+<<<<<<< HEAD
 
 
 
@@ -1390,6 +1720,8 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
 
 
 
+=======
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </p>
                 <div class="blog-readmore text-end">
                   <a class="text-black text-decoration-none" href="javascript:void(0)">
@@ -1486,7 +1818,11 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
               <div class="logo" data-aos="fade-down-right">
                 <a href="./index">
                   <i class="fa fa-utensils me-3"></i>
+<<<<<<< HEAD
                   <h1 class="mb-0">Restoran</h1>
+=======
+                  <h1 class="mb-0">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </a>
               </div>
             </div>
@@ -1512,10 +1848,15 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
           </div>
           <div class="row pt-5 content-desc" data-aos="fade-right">
             <p class="px-0">
+<<<<<<< HEAD
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat Duis aute irure dolor.
+=======
+            "Delicious flavors, fresh ingredients, and unforgettable dining—experience excellence
+             with every bite at Dinsphere"
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
             </p>
           </div>
           <div class="row" data-aos="fade-right">
@@ -1524,8 +1865,13 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
+<<<<<<< HEAD
                     157 White Oak Drive Kansas City <br />
                     689 Lynn Street South Boston
+=======
+                  12, MG Road, Indiranagar, Bengaluru, Karnataka - 560038<br />
+                  45, Connaught Place, New Delhi, Delhi - 110001
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </p>
                 </div>
               </div>
@@ -1533,8 +1879,13 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
+<<<<<<< HEAD
                     (617)-276-8031 <br />
                     (617)-276-8031
+=======
+                    1234567890 <br />
+                    0987654321
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </p>
                 </div>
               </div>
@@ -1571,9 +1922,15 @@ Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and
       </div>
       <div class="row">
         <p class="text-center pt-4 mt-3 pt-lg-0">
+<<<<<<< HEAD
           &copy; <span id="copyrightCurrentYear"></span> <b> Restoran.</b> All
           rights reserved. Design by
           <a href="https://www.linkedin.com/in/codewithshabbir/" class="fw-bold author-name">Muhammad Shabbir</a>
+=======
+          &copy; <span id="copyrightCurrentYear"></span> <b> Dinsphere.</b> All
+          rights reserved. Design by
+          <a href="" class="fw-bold author-name">Payal & Prerna</a>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
         </p>
       </div>
     </div>

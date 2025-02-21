@@ -4,7 +4,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<<<<<<< HEAD
   <title>Restaurant - About</title>
+=======
+  <title>Dinsphere - About</title>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,7 +26,11 @@
 <body>
   <div class="loader">
     <i class="fas fa-utensils loader-icone"></i>
+<<<<<<< HEAD
     <p>Restaurant</p>
+=======
+    <p>Dinsphere</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
     <div class="loader-ellipses">
       <span></span>
       <span></span>
@@ -35,7 +43,11 @@
       <div class="logo">
         <a href="./index">
           <i class="fa fa-utensils me-3 text-dark"></i>
+<<<<<<< HEAD
           <h1 class="mb-0 text-dark">Restaurant</h1>
+=======
+          <h1 class="mb-0 text-dark">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
         </a>
       </div>
       <div class="menus">
@@ -75,7 +87,11 @@
         <div class="logo">
           <a href="./index">
             <i class="fa fa-utensils me-3 text-dark"></i>
+<<<<<<< HEAD
             <h1 class="mb-0 text-dark">Restaurant</h1>
+=======
+            <h1 class="mb-0 text-dark">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
           </a>
         </div>
       </div>
@@ -250,7 +266,11 @@
       <div class="container">
         <div class="row" data-aos="fade-right">
           <h2 class="text-center display-6 fw-bold">
+<<<<<<< HEAD
             Restoran Glory Story
+=======
+          Dinsphere Glory Story
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
           </h2>
           <div class="about-line d-flex justify-content-center align-items-center">
             <span></span>
@@ -339,57 +359,101 @@ Our menu features a range of carefully curated options, with a special focus on 
               <div class="slider-content pt-5 pb-4 mx-4" data-aos="fade-down-left">
                 <div>
                   <div class="testi-content">
+<<<<<<< HEAD
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto vel ipsa dolore sunt vitae,
                       culpa, dolor reiciendis facilis sed blanditiis repellat incidunt impedit iusto? Odio veniam beatae
                       veritatis adipisci a!</p>
+=======
+                    <p>"I had an amazing dining experience at this restaurant! The ambiance was warm and inviting, and the 
+                      staff was incredibly attentive. The food was simply outstanding—every dish was packed with authentic 
+                      flavors and fresh ingredients. I highly recommend the paneer tikka and dal makhani. Definitely coming 
+                      back with my family!"</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </div>
                   <div class="d-flex justify-content-center mb-3">
                     <img src="<?php echo base_url('assets/images/'); ?>testi-signal.png" alt="">
                   </div>
                   <div class="testi-info">
+<<<<<<< HEAD
                     <span class="name">Timothy Doe</span>
+=======
+                    <span class="name">Rajesh Iyer</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     <span class="position">Customer</span>
                   </div>
                 </div>
                 <div>
                   <div class="testi-content">
+<<<<<<< HEAD
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto vel ipsa dolore sunt vitae,
                       culpa, dolor reiciendis facilis sed blanditiis repellat incidunt impedit iusto? Odio veniam beatae
                       veritatis adipisci a!</p>
+=======
+                    <p>"As someone who understands the effort behind running a successful business, I must say this restaurant
+                       has exceeded expectations. The team’s dedication to quality, service, and hygiene is commendable. The 
+                       menu is well-curated, and the presentation of dishes is top-notch. Keep up the great work!"
+                    </p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </div>
                   <div class="d-flex justify-content-center mb-3">
                     <img src="<?php echo base_url('assets/images/'); ?>testi-signal.png" alt="">
                   </div>
                   <div class="testi-info">
+<<<<<<< HEAD
                     <span class="name">Sarah Ruiz</span>
+=======
+                    <span class="name">Priya Mehta</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     <span class="position">Director</span>
                   </div>
                 </div>
                 <div>
                   <div class="testi-content">
+<<<<<<< HEAD
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto vel ipsa dolore sunt vitae,
                       culpa, dolor reiciendis facilis sed blanditiis repellat incidunt impedit iusto? Odio veniam beatae
                       veritatis adipisci a!</p>
+=======
+                    <p>"The interior design of this restaurant is absolutely stunning! The combination of traditional and 
+                      modern elements creates a cozy yet elegant vibe. The lighting, decor, and furniture are all thoughtfully 
+                      placed, making it a perfect spot for both casual and fine dining. A true visual treat!
+                   </p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </div>
                   <div class="d-flex justify-content-center mb-3">
                     <img src="<?php echo base_url('assets/images/'); ?>testi-signal.png" alt="">
                   </div>
                   <div class="testi-info">
+<<<<<<< HEAD
                     <span class="name">Tracey Lewis</span>
+=======
+                    <span class="name">Neha Sharma</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     <span class="position">Designer</span>
                   </div>
                 </div>
                 <div>
                   <div class="testi-content">
+<<<<<<< HEAD
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto vel ipsa dolore sunt vitae,
                       culpa, dolor reiciendis facilis sed blanditiis repellat incidunt impedit iusto? Odio veniam beatae
                       veritatis adipisci a!</p>
+=======
+                    <p>"I am truly impressed by the efficiency and professionalism of the staff here. The service is quick, 
+                      and the team works seamlessly to ensure every guest has a great experience. The restaurant maintains 
+                      high standards of cleanliness and hospitality, which makes it a pleasure to dine here. Highly recommended!"
+                    </p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   </div>
                   <div class="d-flex justify-content-center mb-3">
                     <img src="<?php echo base_url('assets/images/'); ?>testi-signal.png" alt="">
                   </div>
                   <div class="testi-info">
+<<<<<<< HEAD
                     <span class="name">Jamie Erickson</span>
+=======
+                    <span class="name">Arjun Sharma</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                     <span class="position">Manager</span>
                   </div>
                 </div>
@@ -414,7 +478,11 @@ Our menu features a range of carefully curated options, with a special focus on 
                     <img src="<?php echo base_url('/assets/images/testi-4.jpg') ?>" alt="">
 
                   </div>
+<<<<<<< HEAD
                 </div>
+=======
+                </div>                                                                            
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
               </div>
             </div>
           </div>
@@ -438,8 +506,14 @@ Our menu features a range of carefully curated options, with a special focus on 
               <div class="box-inner">
                 <div class="box-wrapper px-4">
                   <h2 class="pb-2">FRESH MENU</h2>
+<<<<<<< HEAD
                   <p class="pb-4">Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+=======
+                  <p class="pb-4">Our fresh menu is crafted daily with seasonal ingredients, offering a variety of vibrant 
+                    salads, wholesome bowls, and chef-special delicacies. Each dish is prepared with farm-fresh produce to 
+                    ensure maximum flavor and nutrition.</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   <div class="book-a-table">
                     <div class="anim-layer"></div>
                     <a href="#">Read More</a>
@@ -459,8 +533,13 @@ Our menu features a range of carefully curated options, with a special focus on 
               <div class="box-inner">
                 <div class="box-wrapper px-4">
                   <h2 class="pb-2">VARIOUS DRINK</h2>
+<<<<<<< HEAD
                   <p class="pb-4">Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+=======
+                  <p class="pb-4">From refreshing mocktails to rich shakes and artisanal coffee, our drinks menu has 
+                    something for every mood. Try our signature fruit coolers or traditional masala chai for a perfect sip.</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   <div class="book-a-table">
                     <div class="anim-layer"></div>
                     <a href="#">Read More</a>
@@ -482,8 +561,15 @@ Our menu features a range of carefully curated options, with a special focus on 
               <div class="box-inner">
                 <div class="box-wrapper px-4">
                   <h2 class="pb-2">EXCLUSIVE DISHES</h2>
+<<<<<<< HEAD
                   <p class="pb-4">Lorem ipsum dolor sit amet, consec adipisicing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+=======
+                  <p class="pb-4">Indulge in our chef’s exclusive creations, like the flavorful Tandoori Soya Chaap and the 
+                    aromatic Pesto Paneer Biryani. These unique dishes blend innovation with tradition for a one-of-a-kind 
+                    dining experience.
+                  </p>    
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                   <div class="book-a-table">
                     <div class="anim-layer"></div>
                     <a href="#">Read More</a>
@@ -583,10 +669,13 @@ Our menu features a range of carefully curated options, with a special focus on 
     </section>
 
 
+<<<<<<< HEAD
    
             
             
 
+=======
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
     <section class="subscribe-us pb-5 mb-5">
       <img class="d-none d-lg-block" src="<?php echo base_url().'/assets/images/subscribe-us.png'?>" alt="" data-aos="fade-down-right">
       <div class="container">
@@ -629,7 +718,11 @@ Our menu features a range of carefully curated options, with a special focus on 
               <div class="logo" data-aos="fade-down-right">
                 <a href="./index">
                   <i class="fa fa-utensils me-3"></i>
+<<<<<<< HEAD
                   <h1 class="mb-0">Restoran</h1>
+=======
+                  <h1 class="mb-0">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </a>
               </div>
             </div>
@@ -650,9 +743,14 @@ Our menu features a range of carefully curated options, with a special focus on 
             </div>
           </div>
           <div class="row pt-5 content-desc" data-aos="fade-right">
+<<<<<<< HEAD
             <p class="px-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
               ut aliquip ex ea commodo consequat Duis aute irure dolor.</p>
+=======
+            <p class="px-0">"Delicious flavors, fresh ingredients, and unforgettable dining—experience excellence with every 
+                             bite at Dinsphere"</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
           </div>
           <div class="row" data-aos="fade-right">
             <div class="d-flex flex-column flex-lg-row px-0 justify-content-between">
@@ -660,18 +758,29 @@ Our menu features a range of carefully curated options, with a special focus on 
                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
+<<<<<<< HEAD
                     157 White Oak Drive Kansas City <br>
                     689 Lynn Street South Boston
                   </p>
+=======
+                    12, MG Road, Indiranagar, Bengaluru, Karnataka - 560038<br>
+                    45, Connaught Place, New Delhi, Delhi - 110001</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </div>
               </div>
               <div class="location d-flex align-items-center pe-2 py-3">
                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
+<<<<<<< HEAD
                     (617)-276-8031 <br>
                     (617)-276-8031
                   </p>
+=======
+                    1234567890<br>
+                    9876543210
+                  </p> 
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
                 </div>
               </div>
               <div class="location d-flex align-items-center pe-2 py-3">
@@ -689,7 +798,11 @@ Our menu features a range of carefully curated options, with a special focus on 
         <div class="col-xl-4">
           <div class="reservation-box" data-aos="fade-down-left">
             <div class="reservation-wrapper">
+<<<<<<< HEAD
               <h2>Open Hour</h2>
+=======
+              <h2>Open Hours</h2>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
               <div class="reservation-date-time">
                 <p>Tuesday: .......................... 7AM - 9PM</p>
                 <p>Wednesday: ..................... 7AM - 9PM</p>
@@ -706,9 +819,15 @@ Our menu features a range of carefully curated options, with a special focus on 
         </div>
       </div>
       <div class="row">
+<<<<<<< HEAD
         <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Restoran.</b> All
           rights reserved. Design by <a href="https://www.linkedin.com/in/codewithshabbir/"
             class="fw-bold author-name">Muhammad Shabbir</a></p>
+=======
+        <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Dinsphere.</b> All
+          rights reserved. Design by <a href=" "
+            class="fw-bold author-name">Payal & Prerna</a></p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
       </div>
     </div>
   </footer>
@@ -723,5 +842,8 @@ Our menu features a range of carefully curated options, with a special focus on 
   <script src="<?php echo base_url('assets/script.js'); ?>"></script>
 
 </body>
+<<<<<<< HEAD
 
+=======
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
 </html>
