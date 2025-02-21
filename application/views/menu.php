@@ -756,14 +756,14 @@
           
           <!-- First item -->
           <div class="item-wrapper d-flex justify-content-between align-items-center mb-4">
-            <div class="item-left d-flex flex-row">
+            <div class="item-left d-flex flex-row mt-4">
               <div class="ps-3">
-                <h5 class="text-white">Dish Name</h5>
-                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <h5 class="text-black">Paneer Tikka </h5>
+                <p class="mb-0">Grilled spiced paneer cubes served with mint chutney.</p>
               </div>
             </div>
             <div class="item-right">
-              <span class="item-price">Rs 100</span>
+              <span class="item-price">Rs 120</span>
             </div>
           </div>
           
@@ -773,12 +773,12 @@
               <!-- <img src="<?php echo base_url('assets/images/foodimg.jpeg'); ?>" 
                 class="img-fluid" alt="Food Image" width="70" height="70"> -->
               <div class="ps-3">
-                <h5 class="text-white">Uncle Herschel's Favorite</h5>
-                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <h5 class="text-black">Hyderabadi Biryani</h5>
+                <p class="mb-0">Aromatic basmati rice with exotic spices and saffron.</p>
               </div>
             </div>
             <div class="item-right">
-              <span class="item-price">Rs 150</span>
+              <span class="item-price">Rs 100</span>
             </div>
           </div>
           
@@ -787,12 +787,12 @@
             <div class="item-left d-flex flex-row">
               <!-- <img class="rounded-circle" src="./assets/images/product-2c.jpg" width="70" height="70" alt=""> -->
               <div class="ps-3">
-                <h5 class="text-white">Grandpa's Country Fried Breakfast</h5>
-                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <h5 class="text-black">Malai Kofta</h5>
+                <p class="mb-0">Soft paneer and potato dumplings in a rich cashew gravy.</p>
               </div>
             </div>
             <div class="item-right">
-              <span class="item-price">$30.00</span>
+              <span class="item-price">Rs 200</span>
             </div>
           </div>
           
@@ -801,14 +801,29 @@
             <div class="item-left d-flex flex-row">
               <!-- <img class="rounded-circle" src="./assets/images/product-2d.jpg" width="70" height="70" alt=""> -->
               <div class="ps-3">
-                <h5 class="text-white">Old Timer's Meat Breakfast</h5>
-                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <h5 class="text-black">Pav Bhaji</h5>
+                <p class="mb-0">Spiced vegetable mash served with buttered buns. </p>
               </div>
             </div>
             <div class="item-right">
-              <span class="item-price">$12.00</span>
+              <span class="item-price">Rs 100</span>
             </div>
           </div>
+
+
+          <div class="item-wrapper d-flex justify-content-between align-items-center mb-4">
+            <div class="item-left d-flex flex-row">
+              <!-- <img class="rounded-circle" src="./assets/images/product-2d.jpg" width="70" height="70" alt=""> -->
+              <div class="ps-3">
+                <h5 class="text-black">Shahi Paneer</h5>
+                <p class="mb-0">Royal paneer dish cooked in a creamy tomato-based gravy.</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="item-price">Rs 160</span>
+            </div>
+
+            
         </div>
 
         <!-- Slider control icons -->
