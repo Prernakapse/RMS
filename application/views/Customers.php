@@ -71,8 +71,8 @@ body {
 }
 
 .btn button {
-  margin: 10px 0 0 770px;
-  width: 10 0px;
+  margin: 10px 0 0 890%;
+  width: 100px;
   height: 5vh;
   background-color: black;
   border: 1px solid black;
@@ -231,11 +231,11 @@ button:focus {
     <li class="active"><a href="<?php echo base_url().'Booking/index';?>">Dashboard</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/customer';?>">Customers</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/order';?>">Orders</a></li>
-      <li class="active"><a href="<?php echo base_url().'Booking/user';?>">Users</a></li>
+      <li class="active"><a href="<?php echo base_url().'Booking/inquiry';?>">Inquiry</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/privacy';?>">Privacy Policy</a></li>
     </ul>
   </div>
-
+ 
 
 <section id="one">
 
@@ -253,108 +253,45 @@ button:focus {
 </section>
 
 <section id="two">
-
   <h1>Customers</h1>
-
 </section>
 
 <section id="three">
- <table>
-   <thead>
-       <tr>
-          <th>Sr.No</th>
-          <th>Name</th>
-          <th>Phone</th>
-          <th>Email</th>
-          <th>Address</th>  
-        </tr>
+<h2>Customers List</h2>
+<table>
+  <thead>
+    <tr>
+        <th>Sr.No</th>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>No. of Persons</th>
+        <th>date</th>
+        <th>time</th>
+    
+       
+    </tr>
 </thead>
+
     <tbody>
-    <tr>
-        <td>1</td>
-        <td>Payal</td>
-        <td>9975812064</td>
-        <td>payal@gmail.com</td>
-        <td>Pandit Colony, Nashik</td>   
-    </tr>
-      
-    <tr>
-        <td>2</td>
-        <td>Prerna</td>
-        <td>9156943109</td>
-        <td>prerna@gmail.com</td>
-        <td>Pune</td>   
-    </tr>
 
-    <tr>
-        <td>3</td>
-        <td>Ritesh</td>
-        <td>1234567890</td>
-        <td>ritesh@gmail.com</td>
-        <td>Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>4</td>
-        <td>Bhumi</td>
-        <td>9975812064</td>
-        <td>bhumi@gmail.com</td>
-        <td>Pandit Colony, Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>5</td>
-        <td>Vaibhavi</td>
-        <td>1234567890</td>
-        <td>vaibhavi@gmail.com</td>
-        <td>Wagholi</td>   
-    </tr>
-
-    <tr>
-        <td>6</td>
-        <td>prerna</td>
-        <td>9975812064</td>
-        <td>prerna@gmail.com</td>
-        <td>Pune</td>   
-    </tr>
-
-    <tr>
-        <td>7</td>
-        <td>Pauravi</td>
-        <td>9876543210</td>
-        <td>pauravi@gmail.com</td>
-        <td>Pandit Colony, Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>8</td>
-        <td>Dhanu</td>
-        <td>1234567890</td>
-        <td>dhanu@gmail.com</td>
-        <td>Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>9</td>
-        <td>payal</td>
-        <td>9975812064</td>
-        <td>payal@gmail.com</td>
-        <td>Pandit Colony, Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>10</td>
-        <td>Bhumi</td>
-        <td>9975812064</td>
-        <td>bhumi@gmail.com</td>
-        <td> Nashik</td>   
-    </tr>
+    <?php foreach($all as $data):?>
+      <tr>
+        <td><?php echo $data->id;?></td>
+        <td><?php echo $data->name;?></td>
+        <td><?php echo $data->phone;?></td>
+        <td><?php echo $data->person;?></td>
+        <td><?php echo $data->date;?></td>
+        <td><?php echo $data->time;?></td>
+       
+      </tr>
+      <?php endforeach ;?>
 
 
-    </tbody>
+        </tbody>
+   
 </table>
-
 </section>
+
 <!-- Bootstrap 4/5 JS and jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>

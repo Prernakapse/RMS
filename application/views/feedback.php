@@ -40,7 +40,7 @@
 
     <div class="container">
         <div class="thank-you-box">
-            <h1> Your Reservation has been successfully confirmed at Dinsphere.</h1>
+            <h1>Your feedback has been successfully submitted.</h1>
             <h2>Thank You!</h2>
          </div>
     </div>

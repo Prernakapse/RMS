@@ -72,8 +72,8 @@ body {
 
 
 .btn button {
-  margin: 10px 0 0 770px;
-  width: 100px;
+  margin: 10px 0 0 890%;
+  width: 100px;;
   height: 5vh;
   background-color: black;
   border: 1px solid black;
@@ -180,7 +180,7 @@ header {
     <li class="active"><a href="<?php echo base_url().'Booking/index';?>">Dashboard</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/customer';?>">Customers</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/order';?>">Orders</a></li>
-      <li class="active"><a href="<?php echo base_url().'Booking/user';?>">Users</a></li>
+      <li class="active"><a href="<?php echo base_url().'Booking/inquiry';?>">Inquiry</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/privacy';?>">Privacy Policy</a></li>
     </ul>
   </div>

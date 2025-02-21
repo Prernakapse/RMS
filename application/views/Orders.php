@@ -71,8 +71,8 @@ body {
 }
 
 .btn button {
-  margin: 10px 0 0 770px;
-  width: 10 0px;
+  margin: 10px 0 0 890%;
+  width: 100px;
   height: 5vh;
   background-color: black;
   border: 1px solid black;
@@ -231,7 +231,7 @@ button:focus {
     <li class="active"><a href="<?php echo base_url().'Booking/index';?>">Dashboard</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/customer';?>">Customers</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/order';?>">Orders</a></li>
-      <li class="active"><a href="<?php echo base_url().'Booking/user';?>">Users</a></li>
+      <li class="active"><a href="<?php echo base_url().'Booking/inquiry';?>">Inquiry</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/privacy';?>">Privacy Policy</a></li>
     </ul>
   </div>
@@ -302,54 +302,6 @@ button:focus {
         <td>9975812064</td>
         <td>bhumi@gmail.com</td>
         <td>Pandit Colony, Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>5</td>
-        <td>Vaibhavi</td>
-        <td>1234567890</td>
-        <td>vaibhavi@gmail.com</td>
-        <td>Wagholi</td>   
-    </tr>
-
-    <tr>
-        <td>6</td>
-        <td>prerna</td>
-        <td>9975812064</td>
-        <td>prerna@gmail.com</td>
-        <td>Pune</td>   
-    </tr>
-
-    <tr>
-        <td>7</td>
-        <td>Pauravi</td>
-        <td>9876543210</td>
-        <td>pauravi@gmail.com</td>
-        <td>Pandit Colony, Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>8</td>
-        <td>Dhanu</td>
-        <td>1234567890</td>
-        <td>dhanu@gmail.com</td>
-        <td>Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>9</td>
-        <td>payal</td>
-        <td>9975812064</td>
-        <td>payal@gmail.com</td>
-        <td>Pandit Colony, Nashik</td>   
-    </tr>
-
-    <tr>
-        <td>10</td>
-        <td>Bhumi</td>
-        <td>9975812064</td>
-        <td>bhumi@gmail.com</td>
-        <td> Nashik</td>   
     </tr>
 
 

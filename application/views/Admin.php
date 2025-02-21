@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.6.2/fetch.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.6.2/fetch.min.js"></script> -->
 
   <title>Admin Dashboard</title>
  <style>
@@ -73,8 +75,8 @@ body {
 }
 
 .btn button {
-  margin: 10px 0 0 770px;
-  width: 10 0px;
+  margin: 10px 0 0 890%;
+  width: 100px;
   height: 5vh;
   background-color: black;
   border: 1px solid black;
@@ -233,7 +235,7 @@ button:focus {
       <li class="active"><a href="<?php echo base_url().'Booking/index';?>">Dashboard</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/customer';?>">Customers</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/order';?>">Orders</a></li>
-      <li class="active"><a href="<?php echo base_url().'Booking/user';?>">Users</a></li>
+      <li class="active"><a href="<?php echo base_url().'Booking/inquiry';?>">Inquiry</a></li>
       <li class="active"><a href="<?php echo base_url().'Booking/privacy';?>">Privacy Policy</a></li>
     </ul>
   </div>
@@ -264,23 +266,21 @@ button:focus {
 
      <div class="card">
          <h4>Total Customers</h4>
-         <p>10</p>
+         <p>4</p>
      </div>
 
      <div class="card">
          <h4>Total Orders</h4>
-         <p>10</p>
+         <p>4</p>
      </div>
 
      <div class="card">
-         <h4>Total Users</h4>
-         <p>10</p>
+         <h4>Total Inquiry</h4>
+         <p>4</p>
      </div>
 
 </div>
 </section>
-
-
 
 <section id="three">
  <table>
@@ -310,12 +310,12 @@ button:focus {
                         <td><?= htmlspecialchars($booking['date']); ?></td>
                         <td><?= htmlspecialchars($booking['time']); ?></td>
                         <td><?= htmlspecialchars($booking['message']); ?></td>
-                        <td>
-                          <button type="button" class="accept-btn btn btn-success" data-id="<?= $customer['id'] ?>">Accept</button>
-                          <button type="button" class="reject-btn btn btn-danger" data-id="<?= $customer['id'] ?>">Reject</button>
-                        </td>
+                      <!-- Inside your table row for each booking -->
+<td>
+<button type="button" class="accept-btn btn btn-success" data-id="<?= $booking['id'] ?>" onclick="processRequest(this)">Accept</button>
+<button type="button" class="reject-btn btn btn-danger" data-id="<?= $booking['id'] ?>">Reject</button>
+                </td>
 
- 
                       </tr>
                 <?php endforeach; ?>
             <?php else : ?>
@@ -327,55 +327,68 @@ button:focus {
 </table>
 
 </section>
-<!-- Bootstrap 4/5 JS and jQuery -->
+
+
 <script>
-$(document).ready(function() {
-    $(".accept-btn").click(function() {
-        var customerId = $(this).data("id");
+  // Select all accept buttons
+  function processRequest(element) {
+      // Get the ID from the button's data-id attribute
+      const bookingId = element.getAttribute('data-id');
 
-        $.ajax({
-            url: "<?= base_url('admin/accept_customer') ?>",
-            type: "POST",
-            data: { id: customerId },
-            success: function(response) {
-                Swal.fire({
-                    title: 'Request Accepted!',
-                    icon: 'success',
-                    timer: 2000,
-                    showConfirmButton: false
-                }).then(() => {
-                    window.location.href = "<?= base_url('admin/customers'); ?>"; // Redirect to customer list
+      const formData = new FormData();
+            formData.append('id', bookingId);
+
+            const url = '<?= base_url('AdminController/fetchData') ?>';
+            console.log(url);
+
+            fetch(url, {
+                    method: 'POST',
+                    body: formData,
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status == "success") {
+                        Swal.fire({
+                            title: 'Success!',
+                            text: data.message,
+                            icon: 'success',
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                // Assuming there's a function to handle the deletion
+                                location.reload();
+                            }
+                        });
+                    } else {
+                        Swal.fire(
+                            'Error!',
+                            data.message,
+                            'error'
+                        )
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
                 });
-            },
-            error: function() {
-                Swal.fire('Error!', 'Something went wrong.', 'error');
-            }
-        });
-    });
 
-    $(".reject-btn").click(function() {
-        var customerId = $(this).data("id");
+      // try {
+      //   const response = await fetch('<?= base_url('AdminController/fetchData') ?>', {
+      //     method: 'POST', 
+      //     headers: { 'Content-Type': 'application/json' },
+      //    body: JSON.stringify({ id: bookingId }) 
+      //   });
 
-        $.ajax({
-            url: "<?= base_url('admin/reject_customer') ?>",
-            type: "POST",
-            data: { id: customerId },
-            success: function(response) {
-                Swal.fire({
-                    title: 'Request Rejected!',
-                    icon: 'error',
-                    timer: 2000,
-                    showConfirmButton: false
-                }).then(() => {
-                    window.location.href = "<?= base_url('admin/customers'); ?>"; // Redirect to customer list
-                });
-            },
-            error: function() {
-                Swal.fire('Error!', 'Something went wrong.', 'error');
-            }
-        });
-    });
-});
+      //   const data = await response.json();
+      //   console.log('Success:', data);
+      // } catch (error) {
+      //   console.error('Error:', error);
+      // }
+    }
 </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
 </body>
 </html>

@@ -59,8 +59,8 @@ $route['booking'] = 'booking/index';
 $route['booking/list'] = 'booking/list';
 $route['bookings'] = 'BookController/index';
 $route['Admin'] = 'Welcome/Admin';
-$route['Booking/submit'] = 'Booking/submit';
+// $route['Booking/submit'] = 'Booking/submit';
 $route['Booking/booktable'] = 'Booking/booktable';
-$route['Booking/success'] = 'Booking/success';
+$route['Booking/thankyou'] = 'Booking/thankyou';
 $route['Welcome/logout'] = 'Welcome/logout';
 

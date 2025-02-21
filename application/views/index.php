@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Restoran</title>
+  <title>Dinsphere</title>
   <!-- Font Awesome (icons) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -26,14 +25,22 @@
 </head>
 
 <body>
- 
+  <!-- <div class="loader">
+      <i class="fas fa-utensils loader-icone"></i>
+      <p>Restaurant</p>
+      <div class="loader-ellipses">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div> -->
 
   <header>
     <div class="container header my-3 d-none d-lg-flex">
       <div class="logo">
         <a href="<?php echo base_url() . 'Home/Index'; ?>">
           <i class="fa fa-utensils me-3"></i>
-          <h1 class="mb-0">Restoran</h1>
+          <h1 class="mb-0">Dinsphere</h1>
         </a>
       </div>
       <div class="menus">
@@ -75,7 +82,7 @@
         <div class="logo">
           <a href="./index">
             <i class="fa fa-utensils me-3"></i>
-            <h1 class="mb-0">Restoran</h1>
+            <h1 class="mb-0">Dinsphere</h1>
           </a>
         </div>
       </div>
@@ -142,7 +149,7 @@
 
         </div>
         <div class="col-8">
-          <h3>The Cracker Barrel's Country Boy Breakfast</h3>
+          <h3>aaa</h3>
           <div class="shopping-cart-counter">
             <i class="fa fa-minus"></i>
             <span>1</span>
@@ -159,7 +166,7 @@
 
         </div>
         <div class="col-8">
-          <h3>Old Timer's Meat Breakfast</h3>
+          <h3>bb</h3>
           <div class="shopping-cart-counter">
             <i class="fa fa-minus"></i>
             <span>1</span>
@@ -176,7 +183,7 @@
           <img src="<?php echo base_url('assets/images/product-2b.jpg'); ?>" alt="" />
         </div>
         <div class="col-8">
-          <h3>Uncle Herschel's Favorite</h3>
+          <h3>ccc</h3>
           <div class="shopping-cart-counter">
             <i class="fa fa-minus"></i>
             <span>1</span>
@@ -192,10 +199,11 @@
           <!-- <img src="./assets/images/product-2d.jpg" alt="" /> -->
 
           <img src="<?php echo base_url('assets/images/product-2d.jpg'); ?>" />
-
         </div>
+
+
         <div class="col-8">
-          <h3>Grandpa's Country Fried Breakfast</h3>
+          <h3>dd</h3>
           <div class="shopping-cart-counter">
             <i class="fa fa-minus"></i>
             <span>1</span>
@@ -240,9 +248,9 @@
               Delicious Meal
             </h1>
             <p>
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-              Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-              sed stet lorem sit clita duo justo magna dolore erat amet
+            Experience the perfect blend of flavors and aromas at our DineSphere Resstaurant, 
+            where every dish is crafted with passion and authenticity. Indulge in 
+            a delightful dining experience with fresh ingredients and a warm ambiance.
             </p>
             <div class="book-a-table">
               <div class="anim-layer"></div>
@@ -274,8 +282,7 @@
               </div>
               <div class="para">
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                Our expert chefs bring years of culinary experience to craft exquisite dishes with authentic flavors and high-quality ingredients.
                 </p>
               </div>
             </div>
@@ -291,8 +298,7 @@
               </div>
               <div class="para">
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                We take pride in serving fresh, delicious, and hygienically prepared meals that satisfy your taste buds with every bite.
                 </p>
               </div>
             </div>
@@ -308,8 +314,7 @@
               </div>
               <div class="para">
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                Enjoy your favorite meals from the comfort of your home with our easy and convenient online ordering system.
                 </p>
               </div>
             </div>
@@ -325,8 +330,7 @@
               </div>
               <div class="para">
                 <p>
-                  Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita
-                  amet diam
+                Our Dinsphere restaurant is open round the clock to serve you delicious meals at any hour, ensuring you never go hungry, day or night.
                 </p>
               </div>
             </div>
@@ -359,17 +363,17 @@
           <div class="col-lg-6 about-content" data-aos="fade-left">
             <h5 class="section-title">About Us</h5>
             <h2 class="mb-4 dis">
-              Welcome to <i class="fa fa-utensils me-2"></i>Restoran
+              Welcome to <i class="fa fa-utensils me-2"></i>Dinsphere
             </h2>
             <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-              Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet
-              lorem sit.
+            Welcome to our Dinsphere restaurant, where passion meets flavor! We take 
+            pride in serving mouthwatering dishes made with the freshest 
+            ingredients, bringing you an unforgettable dining experience.
             </p>
             <p class="mb-4">
-              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-              Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-              sed stet lorem sit clita duo justo magna dolore erat amet
+            Our warm and inviting ambiance, paired with exceptional hospitality,
+            ensures that every visit feels special. From casual dining to celebrations,
+            we are here to make your moments delightful.
             </p>
             <div class="row g-4 mb-4 about-extra">
               <div class="col-sm-6">
@@ -408,72 +412,27 @@
             <h2 class="display-5 fw-bold">Tasty And Good Price</h2>
           </div>
         </div>
-        <div class="row position-relative">
-          <div data-aos="fade-left" class="slider slider-indicators-wrapper justify-content-center">
-            <div class="slider-indicators">
-              <div class="indicators-icon active text-center">
-                <i class="fas fa-coffee fa-2x"></i>
-              </div>
-              <div class="indicators-title text-center">
-                <h5>Breakfast</h5>
-              </div>
-            </div>
-            <div class="slider-indicators">
-              <div class="indicators-icon text-center">
-                <i class="fas fa-utensils fa-2x"></i>
-              </div>
-              <div class="indicators-title text-center">
-                <h5>Lunch</h5>
-              </div>
-            </div>
-            <div class="slider-indicators">
-              <div class="indicators-icon text-center">
-                <i class="fas fa-hamburger fa-2x"></i>
-              </div>
-              <div class="indicators-title text-center">
-                <h5>Dinner</h5>
-              </div>
-            </div>
-            <div class="slider-indicators">
-              <div class="indicators-icon text-center">
-                <i class="fas fa-ice-cream fa-2x"></i>
-              </div>
-              <div class="indicators-title text-center">
-                <h5>Desserts</h5>
-              </div>
-            </div>
-            <div class="slider-indicators">
-              <div class="indicators-icon text-center">
-                <i class="fas fa-cocktail fa-2x"></i>
-              </div>
-              <div class="indicators-title text-center">
-                <h5>Drink</h5>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+
         <div id="our-menus" class="slider" data-aos="fade-up">
           <div>
             <div class="row my-5 py-3">
               <div class="col-lg-5">
                 <div class="pb-5 pb-lg-0">
-                  <img width="90%" src="<?php echo base_url('assets/images/menu-slider-dessert.png'); ?>" alt="" />
-
+                  <img width="90%" src="<?php echo base_url('assets/images/breakfast.png'); ?>" alt="" />
                 </div>
               </div>
               <div class="col-lg-7">
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
-                    <h5>The Cracker Barrel's Country Boy Breakfast</h5>
+                    <h5>Masala Dosa</h5>
                     <p>
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum
-                    </p>
+                    Crispy, thin rice crepe filled with a spiced potato mixture, served with coconut chutney and tangy sambar.                    </p>
                   </div>
                   <div class="item-right">
                     <span class="item-price">
-                      <span class="price-symbol">$</span>
-                      25.0</span>
+                      <span class="price-symbol">Rs</span>
+                      80</span>
                     <div class="item-btn">
                       <a href="#">Order</a>
                     </div>
@@ -481,16 +440,15 @@
                 </div>
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
-                    <h5>Uncle Herschel's Favorite</h5>
+                    <h5>Poha</h5>
                     <p>
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum
+                    Light and flavorful rice flakes sautéed with mustard seeds, turmeric, and veggies, garnished with fresh coriander and peanuts.
                     </p>
                   </div>
                   <div class="item-right">
                     <span class="item-price">
-                      <span class="price-symbol">$</span>
-                      45.0</span>
+                      <span class="price-symbol">Rs</span>
+                      30</span>
                     <div class="item-btn">
                       <a href="#">Order</a>
                     </div>
@@ -498,16 +456,16 @@
                 </div>
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
-                    <h5>Grandpa's Country Fried Breakfast</h5>
+                    <h5>Upma</h5>
                     <p>
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum
+                    Savory semolina dish cooked with vegetables, mustard seeds, 
+                    and curry leaves, offering a wholesome start to your day.
                     </p>
                   </div>
                   <div class="item-right">
                     <span class="item-price">
-                      <span class="price-symbol">$</span>
-                      30.0</span>
+                      <span class="price-symbol">Rs</span>
+                      50</span>
                     <div class="item-btn">
                       <a href="#">Order</a>
                     </div>
@@ -515,16 +473,16 @@
                 </div>
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
-                    <h5>Old Timer's Meat Breakfast</h5>
+                    <h5>Idli</h5>
                     <p>
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum
+                    Soft and fluffy steamed rice cakes, served with coconut chutney and
+                    spicy sambar for a healthy breakfast option.
                     </p>
                   </div>
                   <div class="item-right">
                     <span class="item-price">
-                      <span class="price-symbol">$</span>
-                      12.0</span>
+                      <span class="price-symbol">Rs</span>
+                      50</span>
                     <div class="item-btn">
                       <a href="#">Order</a>
                     </div>
@@ -532,16 +490,15 @@
                 </div>
                 <div class="item-wrapper d-flex justify-content-between">
                   <div class="item-left">
-                    <h5>Chinese Chicken Bread Spicy Soup</h5>
+                    <h5>Misal Pav</h5>
                     <p>
-                      Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum
+                    Spicy sprouts curry served with soft bread rolls, a hearty and flavorful breakfast from Maharashtra.
                     </p>
                   </div>
                   <div class="item-right">
                     <span class="item-price">
-                      <span class="price-symbol">$</span>
-                      12.0</span>
+                      <span class="price-symbol">Rs</span>
+                      70</span>
                     <div class="item-btn">
                       <a href="#">Order</a>
                     </div>
@@ -549,26 +506,124 @@
                 </div>
               </div>
               <div>
+
+
+
+              <div id="our-menus" class="slider" data-aos="fade-up">
+          <div>
+            <div class="row my-5 py-3">
+              <div class="col-lg-5">
+                <div class="pb-5 pb-lg-0">
+                  <img width="90%" src="<?php echo base_url('assets/images/lunch.jpg'); ?>" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Paneer Butter Masala</h5>
+                    <p>
+                    A rich and creamy curry made with paneer cubes simmered in a spiced tomato-based gravy.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      130</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Aloo Paratha</h5>
+                    <p>
+                    Soft whole wheat flatbread stuffed with spiced mashed potatoes, served with curd and pickle.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      80</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Veg Pulao</h5>
+                    <p>
+                    A flavorful rice dish made with seasonal vegetables and mild spices, perfect for a light meal.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      90</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Butter Naan</h5>
+                    <p>
+                    Soft, buttery flatbread baked in a tandoor, perfect for pairing with curries and gravies.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      60</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="item-wrapper d-flex justify-content-between">
+                  <div class="item-left">
+                    <h5>Dum Aloo</h5>
+                    <p>
+                    A creamy, frozen dessert available in a variety of flavors, perfect for a refreshing treat any time of the day.
+                    </p>
+                  </div>
+                  <div class="item-right">
+                    <span class="item-price">
+                      <span class="price-symbol">Rs</span>
+                      50</span>
+                    <div class="item-btn">
+                      <a href="#">Order</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+
+
+
+
+
                 <div class="row my-5 py-3">
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
-                      <!-- <img width="90%" src="./assets/images/menu-slider-dinner.png" alt="" /> -->
-                      <img width="90%" src="<?php echo base_url('assets/images/menu-slider-dinner.png'); ?>" alt="" />
+                      <!-- <img width="90%" src="./assets/images/menu-slider-dinner.jpg" alt="" /> -->
+                      <img width="90%" src="<?php echo base_url('assets/images/Dine.png'); ?>" alt="" />
                     </div>
                   </div>
                   <div class="col-lg-7">
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>The Cracker Barrel's Country Boy Breakfast</h5>
+                        <h5>Paneer Butter Masala</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        A rich and creamy curry made with soft paneer cubes, cooked in a flavorful tomato-based sauce.
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          25.0</span>
+                          <span class="price-symbol">Rs</span>
+                          150</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -576,16 +631,15 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Uncle Herschel's Favorite</h5>
+                        <h5>Dal Tadka </h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        Lentils cooked with aromatic spices and topped with a sizzling tempering of ghee, garlic, and cumin.
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          45.0</span>
+                          <span class="price-symbol">Rs</span>
+                          120</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -593,16 +647,15 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Grandpa's Country Fried Breakfast</h5>
+                        <h5>Vegetable Biryani</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        Fragrant basmati rice cooked with mixed vegetables and a blend of aromatic spices, served with raita.
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          30.0</span>
+                          <span class="price-symbol">Rs</span>
+                           110</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -610,16 +663,15 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Old Timer's Meat Breakfast</h5>
+                        <h5>Chole Bhature </h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        Spicy and tangy chickpea curry served with deep-fried fluffy bread, perfect for a hearty meal.
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          12.0</span>
+                          <span class="price-symbol">Rs</span>
+                          120</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -627,16 +679,15 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Chinese Chicken Bread Spicy Soup</h5>
+                        <h5>Tandoori Roti</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        Soft, round whole wheat bread baked in a tandoor, perfect to accompany any curry or dip.
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          12.0</span>
+                          <span class="price-symbol">Rs</span>
+                           50</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -650,22 +701,22 @@
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
                       <!-- <img width="90%" src="./assets/images/menu-slider-dessert.png" alt="" /> -->
-                      <img width="90%" src="<?php echo base_url('assets/images/menu-slider-dessert.png'); ?>" alt="" />
+                      <img width="90%" src="<?php echo base_url('assets/images/cake.jpg'); ?>" alt="" />
                     </div>
                   </div>
                   <div class="col-lg-7">
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>The Cracker Barrel's Country Boy Breakfast</h5>
+                        <h5> Gulab Jamun</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
-                        </p>
+                        Soft, deep-fried khoya dumplings soaked in fragrant rose-flavored sugar syrup. Served warm 
+                        for a melt-in-the-mouth experience.
+</p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          25.0</span>
+                          <span class="price-symbol">Rs</span>
+                          50</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -673,16 +724,15 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Uncle Herschel's Favorite</h5>
+                        <h5>Rasmalai </h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
-                        </p>
+                        Delicate, spongy cottage cheese discs soaked in rich, saffron-infused milk, garnished with slivered 
+                        almonds and pistachios.</p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          45.0</span>
+                          <span class="price-symbol">Rs</span>
+                          80</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -690,16 +740,15 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Grandpa's Country Fried Breakfast</h5>
+                        <h5>Choco Lava Cake </h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
-                        </p>
+                        A warm, soft chocolate cake with a gooey molten chocolate center, served with a scoop of vanilla ice cream for
+                         the perfect contrast of hot and cold.</p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          30.0</span>
+                          <span class="price-symbol">Rs</span>
+                          70</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -707,16 +756,15 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Old Timer's Meat Breakfast</h5>
+                        <h5>Caramel Custard Pudding</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
-                        </p>
+                        A smooth and silky caramel custard with a rich caramel glaze on top, offering a melt-in-your-mouth experience 
+                        with every spoonful.</p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          12.0</span>
+                          <span class="price-symbol">Rs</span>
+                          60</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -724,16 +772,16 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Chinese Chicken Bread Spicy Soup</h5>
+                        <h5>Berry Bliss Cheesecake </h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        A creamy New York-style cheesecake topped with a tangy mixed berry compote, served on a buttery biscuit base 
+                        for a delightful balance of sweet and tart flavors.
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          12.0</span>
+                          <span class="price-symbol">Rs</span>
+                          100</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -742,27 +790,25 @@
                   </div>
                 </div>
               </div>
-              <div>
-                <div class="row my-5 py-3">
+             
+              <div class="row my-5 py-3">
                   <div class="col-lg-5">
                     <div class="pb-5 pb-lg-0">
                       <!-- <img width="90%" src="./assets/images/menu-slider-lunch.png" alt="" /> -->
-                      <img width="90%" src="<?php echo base_url('assets/images/menu-slider-lunch.png'); ?>" alt="" />
+                      <img width="90%" src="<?php echo base_url('assets/images/drinks.png'); ?>" alt="" />
                     </div>
                   </div>
                   <div class="col-lg-7">
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>The Cracker Barrel's Country Boy Breakfast</h5>
+                        <h5>Berry Bliss Mocktail</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
-                        </p>
-                      </div>
+                        A refreshing blend of mixed berries, mint, and freshly squeezed lime, topped with sparkling soda for
+                         a burst of fruity goodness.</div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          25.0</span>
+                          <span class="price-symbol">Rs</span>
+                          80</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -770,16 +816,18 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Uncle Herschel's Favorite</h5>
+                        <h5> Cold Coffee</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        Smooth, creamy, and perfectly sweetened, our cold coffee is blended with premium espresso and chilled 
+                        milk, topped with a hint of cocoa.
+
+
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          45.0</span>
+                          <span class="price-symbol">Rs</span>
+                          90</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -787,16 +835,16 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Grandpa's Country Fried Breakfast</h5>
+                        <h5>Mango Tango Smoothie</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        A tropical delight made with ripe mangoes, yogurt, and a splash of orange juice for a creamy, 
+                        refreshing summer treat.
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          30.0</span>
+                          <span class="price-symbol">Rs</span>
+                          70</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -804,16 +852,16 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Old Timer's Meat Breakfast</h5>
+                        <h5>  Lemon Iced Tea</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
+                        A crisp and revitalizing iced tea infused with fresh lemon juice and a touch of honey, served 
+                        over ice for ultimate refreshment.
                         </p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          12.0</span>
+                          <span class="price-symbol">Rs</span>
+                          40</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -821,16 +869,15 @@
                     </div>
                     <div class="item-wrapper d-flex justify-content-between">
                       <div class="item-left">
-                        <h5>Chinese Chicken Bread Spicy Soup</h5>
+                        <h5>Special Hot Chocolate</h5>
                         <p>
-                          Duis aute irure dolor in reprehenderit in voluptate
-                          velit esse cillum
-                        </p>
+                        Indulgent, rich hot chocolate made with premium dark cocoa, steamed milk, and topped with 
+                        whipped cream and choco shavings.</p>
                       </div>
                       <div class="item-right">
                         <span class="item-price">
-                          <span class="price-symbol">$</span>
-                          12.0</span>
+                          <span class="price-symbol">Rs</span>
+                          50</span>
                         <div class="item-btn">
                           <a href="#">Order</a>
                         </div>
@@ -946,56 +993,54 @@
                 <div>
                   <div class="testi-content">
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Architecto vel ipsa dolore sunt vitae, culpa, dolor
-                      reiciendis facilis sed blanditiis repellat incidunt
-                      impedit iusto? Odio veniam beatae veritatis adipisci a!
+                    "Absolutely loved the food at Dinsphere Restaurant! The Paneer Butter 
+                     Masala was rich and flavorful, and the service was quick. Highly 
+                     recommend this place for a great dining experience!"
                     </p>
                   </div>
                   <div class="testi-info">
-                    <span class="name">Timothy Doe</span>
+                    <span class="name">Ravi Kumar</span>
                     <span class="position">Customer</span>
                   </div>
                 </div>
                 <div>
                   <div class="testi-content">
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Architecto vel ipsa dolore sunt vitae, culpa, dolor
-                      reiciendis facilis sed blanditiis repellat incidunt
-                      impedit iusto? Odio veniam beatae veritatis adipisci a!
+                    "The food here is delicious, especially the Gajar Halwa. 
+                     The ambiance is cozy, and the staff is polite. Would definitely 
+                     come back again for more."
                     </p>
                   </div>
                   <div class="testi-info">
-                    <span class="name">Sarah Ruiz</span>
+                    <span class="name">Ankita Sharma</span>
                     <span class="position">Director</span>
                   </div>
                 </div>
                 <div>
                   <div class="testi-content">
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Architecto vel ipsa dolore sunt vitae, culpa, dolor
-                      reiciendis facilis sed blanditiis repellat incidunt
-                      impedit iusto? Odio veniam beatae veritatis adipisci a!
+                    "I had a wonderful time at this Dinsphere Restaurant! The Chole Bhature was 
+                     simply divine, and the staff made us feel at home. I’ll definitely
+                     be bringing my friends here soon!"
+
+
                     </p>
                   </div>
                   <div class="testi-info">
-                    <span class="name">Tracey Lewis</span>
+                    <span class="name">Priya Desai</span>
                     <span class="position">Designer</span>
                   </div>
                 </div>
                 <div>
                   <div class="testi-content">
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Architecto vel ipsa dolore sunt vitae, culpa, dolor
-                      reiciendis facilis sed blanditiis repellat incidunt
-                      impedit iusto? Odio veniam beatae veritatis adipisci a!
+                    "Best breakfast I’ve had in a while! The Masala Dosa was 
+                    crispy and the chutneys were amazing. A perfect start to my 
+                    day, and the service was excellent!"
                     </p>
                   </div>
                   <div class="testi-info">
-                    <span class="name">Jamie Erickson</span>
+                    <span class="name">Amit Verma</span>
                     <span class="position">Manager</span>
                   </div>
                 </div>
@@ -1003,16 +1048,16 @@
               <div class="slider-nav-wrapper mx-5">
                 <div class="slider-nav">
                   <div class="slider-nav-img active">
-                    <img src="<?php echo base_url('assets/images/testi-1.jpg') ?>" alt="" />
+                    <img src="<?php echo base_url('assets/images/testi-1.jpg') ?>" alt="1" />
                   </div>
                   <div class="slider-nav-img">
-                    <img src="<?php echo base_url('assets/images/testi-2.jpg') ?>" alt="" />
+                    <img src="<?php echo base_url('assets/images/testi-2.jpg') ?>" alt="2" />
                   </div>
                   <div class="slider-nav-img">
-                    <img src="<?php echo base_url('assets/images/testi-3.jpg') ?>" alt="" />
+                    <img src="<?php echo base_url('assets/images/testi-3.jpg') ?>" alt="3" />
                   </div>
                   <div class="slider-nav-img">
-                    <img src="<?php echo base_url('assets/images/testi-4.jpg') ?>" alt="" />
+                    <img src="<?php echo base_url('assets/images/testi-4.jpg') ?>" alt="4" />
                   </div>
                 </div>
               </div>
@@ -1033,9 +1078,9 @@
         <div class="row our-chef-slider-wrapper py-5" data-aos="fade-left">
           <div class="col-lg-4">
             <div class="our-chef-slider d-flex flex-column align-items-center gap-4">
-              <img width="200px" src="<?php echo base_url('assets/images/team-1.png'); ?>" alt="" />
+              <img width="200px" src="<?php echo base_url('assets/images/team-1.png'); ?>" alt="team-1" />
               <div class="chef-slider-content">
-                <h5 class="text-center d-block">Teresa Doe</h5>
+                <h5 class="text-center d-block">Arjun Patel</h5>
                 <p class="text-center mb-0">Head Chef</p>
                 <div class="d-flex justify-content-center">
                   <hr class="w-25 my-2" />
@@ -1069,7 +1114,7 @@
             <div class="our-chef-slider d-flex flex-column align-items-center gap-4">
               <img width="200px" src="<?php echo base_url('assets/images/team-2.png'); ?>" alt="" />
               <div class="chef-slider-content">
-                <h5 class="text-center d-block">Teresa Doe</h5>
+                <h5 class="text-center d-block">Rohini Verma</h5>
                 <p class="text-center mb-0">Head Chef</p>
                 <div class="d-flex justify-content-center">
                   <hr class="w-25 my-2" />
@@ -1103,7 +1148,7 @@
             <div class="our-chef-slider d-flex flex-column align-items-center gap-4">
               <img width="200px" src="<?php echo base_url('assets/images/team-3.png'); ?>" alt="" />
               <div class="chef-slider-content">
-                <h5 class="text-center d-block">Teresa Doe</h5>
+                <h5 class="text-center d-block">Karan Sharma</h5>
                 <p class="text-center mb-0">Head Chef</p>
                 <div class="d-flex justify-content-center">
                   <hr class="w-25 my-2" />
@@ -1137,7 +1182,7 @@
             <div class="our-chef-slider d-flex flex-column align-items-center gap-4">
               <img width="200px" src="<?php echo base_url('assets/images/team-4.png'); ?>" alt="" />
               <div class="chef-slider-content">
-                <h5 class="text-center d-block">Teresa Doe</h5>
+                <h5 class="text-center d-block">Rutik Sharma</h5>
                 <p class="text-center mb-0">Head Chef</p>
                 <div class="d-flex justify-content-center">
                   <hr class="w-25 my-2" />
@@ -1185,7 +1230,7 @@
                 <br><br>
                 Parking: Details about parking availability
                 <br>(e.g., on-site parking, street parking, valet).<br><br>
-                Wi-Fi: If the restaurant offers free Wi-Fi for customers.
+                Wi-Fi: If the Dinsphere restaurant offers free Wi-Fi for customers.
                 <br><br>
                 Pet-Friendly: Whether pets are allowed or if there are outdoor seating areas for pets.
 
@@ -1240,8 +1285,7 @@
             </div>
             <h4>Reservation</h4>
             <p class="text-center">
-              Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod
-              incididunt utote labore et
+            Secure your table in advance for a seamless dining experience.
             </p>
           </div>
           <div data-aos="fade-down"
@@ -1252,8 +1296,7 @@
             </div>
             <h4>Private Event</h4>
             <p class="text-center">
-              Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod
-              incididunt utote labore et
+            Host your special occasions with our exclusive dining and catering services.
             </p>
           </div>
           <div data-aos="fade-up"
@@ -1264,8 +1307,7 @@
             </div>
             <h4>Online Order</h4>
             <p class="text-center">
-              Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod
-              incididunt utote labore et
+            Enjoy your favorite dishes from the comfort of your home with just a few clicks.
             </p>
           </div>
           <div data-aos="fade-up-left"
@@ -1276,8 +1318,7 @@
             </div>
             <h4>Fast Delivery</h4>
             <p class="text-center">
-              Lorem ipsum dolor sit amet, tong consecteturto sed eiusmod
-              incididunt utote labore et
+            Fresh, hot, and delicious food delivered to your doorstep in no time.
             </p>
           </div>
         </div>
@@ -1354,12 +1395,10 @@
                   <span class="month">Jun</span>
                 </div>
                 <h3 class="blog-title">
-                  <a href="javascript:void(0)">How To Cook The Spicy Chinese Noodle For Cold Weather</a>
+                  <a href="javascript:void(0)">The Secret Behind Our Signature Spices</a>
                 </h3>
                 <p class="blog-description">
-                  Lorem ipsum dolor sit amet, consectetur, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                Our chefs carefully blend traditional Indian spices to bring out rich, bold flavors in every dish. Discover the magic behind our secret spice mixes that make our food truly unforgettable.                </p>
                 <div class="blog-readmore text-end">
                   <a class="text-black text-decoration-none" href="javascript:void(0)">
                     Read More
@@ -1386,7 +1425,7 @@
               </div>
               <div class="blog-featured-img">
                 <!-- <img class="w-100" src="./assets/images/blog-grid-1-1.jpg" alt="" /> -->
-                <img class="w-100" src="<?php echo base_url('assets/images/blog-grid-1-1.jpg'); ?>" alt="" />
+                <img class="w-100" src="<?php echo base_url('assets/images/noodles.jpg'); ?>" alt="" />
 
               </div>
               <div class="blog-content px-4 pt-5 pb-4 position-relative">
@@ -1395,11 +1434,11 @@
                   <span class="month">Jun</span>
                 </div>
                 <h3 class="blog-title">
-                  <a href="javascript:void(0)">How To Cook The Spicy Chinese Noodle For Cold Weather</a>
+                  <a href="javascript:void(0)">Savor the Perfect Bowl of Delicious Noodles.</a>
                 </h3>
                 <p class="blog-description">
-                  Lorem ipsum dolor sit amet, consectetur, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
+                Enjoy a flavorful bowl of noodles, crafted with fresh ingredients and bold spices. 
+                From spicy Schezwan to creamy garlic butter noodles, there's a perfect choice for every craving!
                 </p>
                 <div class="blog-readmore text-end">
                   <a class="text-black text-decoration-none" href="javascript:void(0)">
@@ -1435,11 +1474,13 @@
                   <span class="month">Jun</span>
                 </div>
                 <h3 class="blog-title">
-                  <a href="javascript:void(0)">How To Cook The Spicy Chinese Noodle For Cold Weather</a>
+                  <a href="javascript:void(0)">Why Ambience Matters in Dining Experience</a>
                 </h3>
                 <p class="blog-description">
-                  Lorem ipsum dolor sit amet, consectetur, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua.
+                A great meal is more than just food—it’s about the atmosphere. Explore how we curate the
+                 perfect dining experience with cozy lighting, elegant decor, and soothing music.
+
+
                 </p>
                 <div class="blog-readmore text-end">
                   <a class="text-black text-decoration-none" href="javascript:void(0)">
@@ -1494,7 +1535,7 @@
               <div class="logo" data-aos="fade-down-right">
                 <a href="./index">
                   <i class="fa fa-utensils me-3"></i>
-                  <h1 class="mb-0">Restoran</h1>
+                  <h1 class="mb-0">Dinsphere</h1>
                 </a>
               </div>
             </div>
@@ -1520,10 +1561,8 @@
           </div>
           <div class="row pt-5 content-desc" data-aos="fade-right">
             <p class="px-0">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat Duis aute irure dolor.
+            "Delicious flavors, fresh ingredients, and unforgettable dining—experience excellence
+             with every bite at Dinsphere"
             </p>
           </div>
           <div class="row" data-aos="fade-right">
@@ -1532,8 +1571,8 @@
                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
-                    157 White Oak Drive Kansas City <br />
-                    689 Lynn Street South Boston
+                  12, MG Road, Indiranagar, Bengaluru, Karnataka - 560038<br />
+                  45, Connaught Place, New Delhi, Delhi - 110001
                   </p>
                 </div>
               </div>
@@ -1541,8 +1580,8 @@
                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
-                    (617)-276-8031 <br />
-                    (617)-276-8031
+                    1234567890 <br />
+                    0987654321
                   </p>
                 </div>
               </div>
@@ -1579,9 +1618,9 @@
       </div>
       <div class="row">
         <p class="text-center pt-4 mt-3 pt-lg-0">
-          &copy; <span id="copyrightCurrentYear"></span> <b> Restoran.</b> All
+          &copy; <span id="copyrightCurrentYear"></span> <b> Dinsphere.</b> All
           rights reserved. Design by
-          <a href="https://www.linkedin.com/in/codewithshabbir/" class="fw-bold author-name">Muhammad Shabbir</a>
+          <a href="" class="fw-bold author-name">Payal & Prerna</a>
         </p>
       </div>
     </div>

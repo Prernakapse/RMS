@@ -5,7 +5,7 @@ class Booking extends CI_Controller {
     public function __construct() {
         parent::__construct();
         $this->load->model('Book_model'); // Load the model
-       
+       $this->load->model('CustomerModel');
         $this->load->helper(array('form', 'url')); // Load form helper
         $this->load->library('form_validation'); // Load form validation library
     }
@@ -58,20 +58,23 @@ class Booking extends CI_Controller {
     }
     
     public function index() {
-        $data['book_table'] = $this->Book_model->get_all_bookings();
+        $data['book_table'] = $this->Book_model->get_all_pending_bookings();
         $this->load->view('Admin', $data);
     }
 
     public function customer(){
-        $this->load->view('customers');
+        $data ['all'] = $this->CustomerModel->fetchD();
+        $this->load->view('customers',$data);
     }
 
     public function order(){
         $this->load->view('orders');
     }
 
-    public function user(){
-        $this->load->view('users');
+    public function inquiry(){
+        $this->load->model('Contact_model'); // Load the model
+        $data['contact'] = $this->Contact_model->get_contacts(); // Fetch data from model
+        $this->load->view('Contact_list', $data); // Pass data to view
     }
 
     public function privacy(){
