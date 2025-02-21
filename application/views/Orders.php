@@ -1,73 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookings List</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-
-<style>
-    body {
-        background-color: #f8f9fa;
-    }
-    .container {
-        background: white;
-        padding: 30px;
-        border-radius: 10px;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    h2 {
-        color: #007bff;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }
-    table {
-        background: white;
-    }
-    thead {
-        background-color: #007bff;
-        color: white;
-    }
-    th, td {
-        text-align: center;
-        vertical-align: middle;
-    }
-    tr:hover {
-        background-color: #f1f1f1;
-    }
-</style>
-
-<body>
-
-<div class="container mt-5">
-    <h2 class="text-center"></h2>
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <th><i class="fas fa-phone"></i> Username</th>
-                <th><i class="fas fa-users"></i> Email</th>
-                <th><i class="fas fa-phone"></i> Phone</th>
-                <th><i class="fas fa-message"></i>Description</th>
-              
-            </tr>
-        </thead>
-        <tbody>
-            <?php foreach($contacts as $contact){ ?>
-            <tr>
-                <td><i class="fas fa-Username"></i> <?= $contact['name']; ?></td>
-                <td><i class="fas fa-email"></i> <?= $contact['email']; ?></td>
-                <td><i class="fas fa-phone"></i> <?= $contact['phone']; ?></td>
-                <td><i class="fas fa-description"></i> <?= $contact['message']; ?></td>
-                <td><a href="<?php echo base_url().'Contact/delete/'.$contact['id'];?>" class="btn btn-sm btn-danger fw-bold ps-2"><i class="fas fa-trash-alt"></i> </a></td>
-            </tr>
-            <?php }; ?>
-        </tbody>
-    </table>
-</div>
-=======
 <head>
   <title>Orders</title>
   <style>
@@ -138,6 +69,7 @@ body {
   color: black;
   margin-left: 30px;
 }
+
 .btn button {
   margin: 10px 0 0 890%;
   width: 100px;
@@ -296,11 +228,11 @@ button:focus {
   <div class="sidebar">
     <h2>Admin Panel</h2>
     <ul>
-    <li class="active"><a href="<?php echo base_url().'Contact/index';?>">Dashboard</a></li>
-      <li class="active"><a href="<?php echo base_url().'Contact/customer';?>">Customers</a></li>
-      <li class="active"><a href="<?php echo base_url().'Contact/order';?>">Orders</a></li>
-      <li class="active"><a href="<?php echo base_url().'Contact/inquiry';?>">Inquiry</a></li>
-      <li class="active"><a href="<?php echo base_url().'Contact/privacy';?>">Privacy Policy</a></li>
+    <li class="active"><a href="<?php echo base_url().'Booking/index';?>">Dashboard</a></li>
+      <li class="active"><a href="<?php echo base_url().'Booking/customer';?>">Customers</a></li>
+      <li class="active"><a href="<?php echo base_url().'Booking/order';?>">Orders</a></li>
+      <li class="active"><a href="<?php echo base_url().'Booking/inquiry';?>">Inquiry</a></li>
+      <li class="active"><a href="<?php echo base_url().'Booking/privacy';?>">Privacy Policy</a></li>
     </ul>
   </div>
 
@@ -313,51 +245,73 @@ button:focus {
           <h1>Welcome to the Admin Panel</h1>
        </div>
 
-
        <div class="btn">
-          <button stype="submit">Log Out</button>
+          <button>Log Out</button>
        </div>
+
   </div>
 </section>
 
 <section id="two">
 
-  <h1>Inquiry</h1>
-  <h2 class="mb-4">Contact List</h2>
-        <table class="table table-bordered">
-            <thead class="table-dark">
-                <tr>
-                    <th>ID</th>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                    <th>Message</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php if (!empty($contact)) { 
-                    $sr_no = 1;
-                    foreach ($contact as $c) { ?>
-                        <tr>
-                            <td><?= $sr_no++; ?></td>
-                            <td><?= htmlspecialchars($c['name']); ?></td>
-                            <td><?= htmlspecialchars($c['email']); ?></td>
-                            <td><?= htmlspecialchars($c['phone']); ?></td>
-                            <td><?= htmlspecialchars($c['message']); ?></td>
-                        </tr>
-                <?php } } else { ?>
-                    <tr>
-                        <td colspan="5" class="text-center">No records found</td>
-                    </tr>
-                <?php } ?>
-            </tbody>
-        </table>
-    </section>
+  <h1>Orders</h1>
 
+</section>
+
+
+
+<section id="three">
+ <table>
+   <thead>
+       <tr>
+          <th>Sr.No</th>
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th>Address</th>  
+        </tr>
+</thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Payal</td>
+        <td>9975812064</td>
+        <td>payal@gmail.com</td>
+        <td>Pandit Colony, Nashik</td>   
+    </tr>
+      
+    <tr>
+        <td>2</td>
+        <td>Prerna</td>
+        <td>9156943109</td>
+        <td>prerna@gmail.com</td>
+        <td>Pune</td>   
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Ritesh</td>
+        <td>1234567890</td>
+        <td>ritesh@gmail.com</td>
+        <td>Nashik</td>   
+    </tr>
+
+    <tr>
+        <td>4</td>
+        <td>Bhumi</td>
+        <td>9975812064</td>
+        <td>bhumi@gmail.com</td>
+        <td>Pandit Colony, Nashik</td>   
+    </tr>
+
+
+    </tbody>
+</table>
+
+</section>
 <!-- Bootstrap 4/5 JS and jQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
->>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
 
 </body>
 </html>

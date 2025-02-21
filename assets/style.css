@@ -876,7 +876,11 @@ header.scrolled {
 	width: 0;
 	height: 100%;
 	background-color: var(--primary-color);
+<<<<<<< HEAD
 	transition: width 0.3s ease, left 0.3s ease;
+=======
+	transition: width 0.3s ease, right 0.3s ease;
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
 	z-index: 1;
 }
 
@@ -1925,7 +1929,13 @@ footer p {
 
 /* Reservation Page Start */
 .reservation-page .banner {
+<<<<<<< HEAD
 	background-image: url("./../images/pagetitle-reservation.jpg");
+=======
+	background-image: url("<?php echo base_url('assets/images/pagetitle-reservation.jpg'); ?>");
+
+	/* background-image: url("./../images/pagetitle-reservation.jpg"); */
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
 }
 
 .reservation-page .reservation-form form,

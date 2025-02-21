@@ -1399,9 +1399,15 @@ header.scrolled .menus>ul>li::after {
       position: relative;
       height: 100vh;
       background-size: cover;
+<<<<<<< HEAD
       /* background: url("./../images/reservation-bg.jpg"); */
       background-image: url("<?php echo base_url('/assets/images/reservation-bg.jpg') ?>");
 
+=======
+      <!-- /* background: url("./../images/reservation-bg.jpg"); */ -->
+       background-image: url("<?php echo base_url('assets/images/reservation-bg-jpg') ?>");
+      <!-- background-image:url("<?php echo base_url('assets/images/reservation-bg-jpg')?>"); -->
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
     }
 
 

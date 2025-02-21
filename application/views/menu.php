@@ -4,7 +4,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+<<<<<<< HEAD
   <title>Dinsphere - Menu</title>
+=======
+<<<<<<< HEAD
+  <title>Restoran - Menu</title>
+=======
+  <title>Dinsphere - Menu</title>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,16 +21,33 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="<?php echo base_url('assets/style.css'); ?>" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> payal
 
   <style>
     <?php $this->load->view('style') ?>
   </style>
+<<<<<<< HEAD
+=======
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
 </head>
 
 <body>
   <div class="loader">
     <i class="fas fa-utensils loader-icone"></i>
+<<<<<<< HEAD
     <p>Dinsphere</p>
+=======
+<<<<<<< HEAD
+    <p>Restoran</p>
+=======
+    <p>Dinsphere</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
     <div class="loader-ellipses">
       <span></span>
       <span></span>
@@ -35,7 +60,15 @@
       <div class="logo">
         <a href="./index">
           <i class="fa fa-utensils me-3 text-dark"></i>
+<<<<<<< HEAD
           <h1 class="mb-0 text-dark">Dinsphere</h1>
+=======
+<<<<<<< HEAD
+          <h1 class="mb-0 text-dark">Restoran</h1>
+=======
+          <h1 class="mb-0 text-dark">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
         </a>
       </div>
       <div class="menus">
@@ -75,7 +108,15 @@
         <div class="logo">
           <a href="./index">
             <i class="fa fa-utensils me-3 text-dark"></i>
+<<<<<<< HEAD
             <h1 class="mb-0 text-dark">Dinsphere</h1>
+=======
+<<<<<<< HEAD
+            <h1 class="mb-0 text-dark">Restoran</h1>
+=======
+            <h1 class="mb-0 text-dark">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
           </a>
         </div>
       </div>
@@ -231,14 +272,115 @@
             <div class="divider" data-aos="fade-up-right" data-aos-delay="3000">
               <div class="dot mb-2"></div>
             </div>
+<<<<<<< HEAD
             <p class="text-center">The various dishes are waiting for your arrival to enjoy their irresistible flavors
               and aromas.</p>
+=======
+<<<<<<< HEAD
+            <p class="text-center">The various dishes are waiting for your coming to enjoy its</p>
+=======
+            <p class="text-center">The various dishes are waiting for your arrival to enjoy their irresistible flavors
+              and aromas.</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
           </div>
         </div>
       </div>
     </section>
 
     <section class="our-menu pt-5 my-5">
+<<<<<<< HEAD
+  <div class="container">
+    <div class="row" data-aos="fade-right">
+      <h2 class="text-center display-6 fw-bold">Breakfast Time</h2>
+      <div class="menu-line d-flex justify-content-center align-items-center">
+        <span></span>
+      </div>
+    </div>
+    <div class="row position-relative" data-aos="fade-left">
+      <div class="slider slider-indicators-wrapper justify-content-center">
+        <div class="slider-indicators">
+          <div class="indicators-icon active text-center">
+            <i class="fas fa-coffee fa-2x"></i>
+          </div>
+          <div class="indicators-title text-center">
+            <h5>Breakfast</h5>
+=======
+<<<<<<< HEAD
+      <div class="container">
+        <div class="row" data-aos="fade-right">
+          <h2 class="text-center display-6 fw-bold">Breakfast Time</h2>
+          <div class="menu-line d-flex justify-content-center align-items-center">
+            <span></span>
+>>>>>>> payal
+          </div>
+        </div>
+        <div class="slider-indicators">
+          <div class="indicators-icon text-center">
+            <i class="fas fa-utensils fa-2x"></i>
+          </div>
+          <div class="indicators-title text-center">
+            <h5>Lunch</h5>
+          </div>
+        </div>
+        <div class="slider-indicators">
+          <div class="indicators-icon text-center">
+            <i class="fas fa-hamburger fa-2x"></i>
+          </div>
+          <div class="indicators-title text-center">
+            <h5>Dinner</h5>
+          </div>
+        </div>
+        <div class="slider-indicators">
+          <div class="indicators-icon text-center">
+            <i class="fas fa-ice-cream fa-2x"></i>
+          </div>
+          <div class="indicators-title text-center">
+            <h5>Desserts</h5>
+          </div>
+        </div>
+        <div class="slider-indicators">
+          <div class="indicators-icon text-center">
+            <i class="fas fa-cocktail fa-2x"></i>
+          </div>
+          <div class="indicators-title text-center">
+            <h5>Drink</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="our-menus" class="slider" data-aos="fade-up">
+      <!-- Breakfast Section -->
+      <div>
+        <div class="row my-5 py-3">
+          <div class="col-lg-5">
+            <div class="pb-5 pb-lg-0 mt-5">
+              <img width="90%" src="<?php echo base_url("/assets/images/breakfast.png") ?>" alt="">
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="item-wrapper d-flex justify-content-between">
+              <div class="item-left">
+                <h5>Masala Dosa</h5>
+                <p>A crispy South Indian dosa filled with spiced potato masala, served with flavorful coconut chutney and hot sambar.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  80
+                </span>
+                <div class="item-btn">
+                  <a href="#">Order</a>
+                </div>
+              </div>
+            </div>
+<<<<<<< HEAD
+=======
+            <div class="chef-choise-icons ps-4 mt-3 mt-lg-0">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+              <i class="fa fa-chevron-down ms-4" aria-hidden="true"></i>
+=======
   <div class="container">
     <div class="row" data-aos="fade-right">
       <h2 class="text-center display-6 fw-bold">Breakfast Time</h2>
@@ -316,6 +458,7 @@
                 </div>
               </div>
             </div>
+>>>>>>> payal
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
                 <h5>Aloo Paratha with Curd & Pickle</h5>
@@ -375,10 +518,20 @@
                   <a href="#">Order</a>
                 </div>
               </div>
+<<<<<<< HEAD
+=======
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
             </div>
           </div>
         </div>
       </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    </section>
+=======
+>>>>>>> payal
 
       <!-- Lunch Section -->
       <div>
@@ -756,6 +909,7 @@
           
           <!-- First item -->
           <div class="item-wrapper d-flex justify-content-between align-items-center mb-4">
+<<<<<<< HEAD
             <div class="item-left d-flex flex-row mt-4">
               <div class="ps-3">
                 <h5 class="text-black">Paneer Tikka </h5>
@@ -764,6 +918,16 @@
             </div>
             <div class="item-right">
               <span class="item-price">Rs 120</span>
+=======
+            <div class="item-left d-flex flex-row">
+              <div class="ps-3">
+                <h5 class="text-white">Dish Name</h5>
+                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="item-price">Rs 100</span>
+>>>>>>> payal
             </div>
           </div>
           
@@ -773,12 +937,21 @@
               <!-- <img src="<?php echo base_url('assets/images/foodimg.jpeg'); ?>" 
                 class="img-fluid" alt="Food Image" width="70" height="70"> -->
               <div class="ps-3">
+<<<<<<< HEAD
                 <h5 class="text-black">Hyderabadi Biryani</h5>
                 <p class="mb-0">Aromatic basmati rice with exotic spices and saffron.</p>
               </div>
             </div>
             <div class="item-right">
               <span class="item-price">Rs 100</span>
+=======
+                <h5 class="text-white">Uncle Herschel's Favorite</h5>
+                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="item-price">Rs 150</span>
+>>>>>>> payal
             </div>
           </div>
           
@@ -787,12 +960,21 @@
             <div class="item-left d-flex flex-row">
               <!-- <img class="rounded-circle" src="./assets/images/product-2c.jpg" width="70" height="70" alt=""> -->
               <div class="ps-3">
+<<<<<<< HEAD
                 <h5 class="text-black">Malai Kofta</h5>
                 <p class="mb-0">Soft paneer and potato dumplings in a rich cashew gravy.</p>
               </div>
             </div>
             <div class="item-right">
               <span class="item-price">Rs 200</span>
+=======
+                <h5 class="text-white">Grandpa's Country Fried Breakfast</h5>
+                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="item-price">$30.00</span>
+>>>>>>> payal
             </div>
           </div>
           
@@ -801,6 +983,7 @@
             <div class="item-left d-flex flex-row">
               <!-- <img class="rounded-circle" src="./assets/images/product-2d.jpg" width="70" height="70" alt=""> -->
               <div class="ps-3">
+<<<<<<< HEAD
                 <h5 class="text-black">Pav Bhaji</h5>
                 <p class="mb-0">Spiced vegetable mash served with buttered buns. </p>
               </div>
@@ -824,6 +1007,16 @@
             </div>
 
             
+=======
+                <h5 class="text-white">Old Timer's Meat Breakfast</h5>
+                <p class="mb-0">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+              </div>
+            </div>
+            <div class="item-right">
+              <span class="item-price">$12.00</span>
+            </div>
+          </div>
+>>>>>>> payal
         </div>
 
         <!-- Slider control icons -->
@@ -837,6 +1030,10 @@
 </section>
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
 
     <section class="lunch-time my-5 pb-0 pb-lg-5">
       <div class="container">
@@ -850,6 +1047,7 @@
           <div class="col-lg-6" data-aos="fade-right">
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Paneer Butter Masala with Naan</h5>
                 <p>Soft paneer cubes cooked in a rich, creamy tomato gravy, served with butter naan for a comforting
                   meal.</p>
@@ -858,10 +1056,31 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   120</span>
+=======
+<<<<<<< HEAD
+                <h5>The Cracker Barrel's Country Boy Breakfast</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  25.0</span>
+=======
+                <h5>Paneer Butter Masala with Naan</h5>
+                <p>Soft paneer cubes cooked in a rich, creamy tomato gravy, served with butter naan for a comforting
+                  meal.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  120</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Veg Biryani with Raita</h5>
                 <p>Aromatic basmati rice cooked with fresh vegetables and exotic spices, served with cool, refreshing
                   raita.</p>
@@ -870,10 +1089,31 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   90</span>
+=======
+<<<<<<< HEAD
+                <h5>Uncle Herschel's Favorite</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  45.0</span>
+=======
+                <h5>Veg Biryani with Raita</h5>
+                <p>Aromatic basmati rice cooked with fresh vegetables and exotic spices, served with cool, refreshing
+                  raita.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  90</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Dal Tadka with Jeera Rice</h5>
                 <p>A flavorful, slow-cooked lentil curry tempered with garlic and spices, paired with fragrant cumin
                   rice.</p>
@@ -882,10 +1122,31 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   90</span>
+=======
+<<<<<<< HEAD
+                <h5>Grandpa's Country Fried Breakfast</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  30.0</span>
+=======
+                <h5>Dal Tadka with Jeera Rice</h5>
+                <p>A flavorful, slow-cooked lentil curry tempered with garlic and spices, paired with fragrant cumin
+                  rice.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  90</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Chole Bhature</h5>
                 <p>Spicy and tangy chickpea curry served with fluffy, deep-fried bhature for a filling North Indian
                   meal.</p>
@@ -894,10 +1155,31 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   120</span>
+=======
+<<<<<<< HEAD
+                <h5>Old Timer's Meat Breakfast</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  12.0</span>
+=======
+                <h5>Chole Bhature</h5>
+                <p>Spicy and tangy chickpea curry served with fluffy, deep-fried bhature for a filling North Indian
+                  meal.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  120</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Grilled Paneer Wrap</h5>
                 <p>A wholesome wrap filled with grilled paneer, fresh veggies, and tangy sauces, served with fries.</p>
               </div>
@@ -905,12 +1187,32 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   80</span>
+=======
+<<<<<<< HEAD
+                <h5>Chinese Chicken Bread Spicy Soup</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  12.0</span>
+=======
+                <h5>Grilled Paneer Wrap</h5>
+                <p>A wholesome wrap filled with grilled paneer, fresh veggies, and tangy sauces, served with fries.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  80</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-left">
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Mushroom Masala with Tandoori Roti</h5>
                 <p>A deliciously spiced mushroom curry cooked in a flavorful onion-tomato gravy, paired with soft
                   tandoori roti.</p>
@@ -919,10 +1221,31 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   110</span>
+=======
+<<<<<<< HEAD
+                <h5>The Cracker Barrel's Country Boy Breakfast</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  25.0</span>
+=======
+                <h5>Mushroom Masala with Tandoori Roti</h5>
+                <p>A deliciously spiced mushroom curry cooked in a flavorful onion-tomato gravy, paired with soft
+                  tandoori roti.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  110</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Rajma Chawal </h5>
                 <p>A hearty Punjabi-style kidney bean curry slow-cooked with spices, served with steamed rice for a
                   homely taste.</p>
@@ -931,10 +1254,31 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   90</span>
+=======
+<<<<<<< HEAD
+                <h5>Uncle Herschel's Favorite</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  45.0</span>
+=======
+                <h5>Rajma Chawal </h5>
+                <p>A hearty Punjabi-style kidney bean curry slow-cooked with spices, served with steamed rice for a
+                  homely taste.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  90</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Veg Hakka Noodles with Manchurian</h5>
                 <p>Stir-fried noodles loaded with fresh veggies, served with crispy Manchurian balls in a spicy sauce.
                 </p>
@@ -943,10 +1287,31 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   120</span>
+=======
+<<<<<<< HEAD
+                <h5>Grandpa's Country Fried Breakfast</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  30.0</span>
+=======
+                <h5>Veg Hakka Noodles with Manchurian</h5>
+                <p>Stir-fried noodles loaded with fresh veggies, served with crispy Manchurian balls in a spicy sauce.
+                </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  120</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Mixed Veg Curry with Tandoori Roti</h5>
                 <p>A flavorful mix of seasonal vegetables cooked in a mildly spiced gravy, served with soft tandoori
                   roti.</p>
@@ -955,10 +1320,31 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   100</span>
+=======
+<<<<<<< HEAD
+                <h5>Old Timer's Meat Breakfast</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  12.0</span>
+=======
+                <h5>Mixed Veg Curry with Tandoori Roti</h5>
+                <p>A flavorful mix of seasonal vegetables cooked in a mildly spiced gravy, served with soft tandoori
+                  roti.</p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  100</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
             <div class="item-wrapper d-flex justify-content-between">
               <div class="item-left">
+<<<<<<< HEAD
                 <h5>Palak Paneer with Garlic Naan</h5>
                 <p>Soft paneer cubes simmered in a smooth and creamy spinach gravy, paired with aromatic garlic naan.
                 </p>
@@ -967,6 +1353,26 @@
                 <span class="item-price">
                   <span class="price-symbol">Rs</span>
                   110</span>
+=======
+<<<<<<< HEAD
+                <h5>Chinese Chicken Bread Spicy Soup</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">$</span>
+                  12.0</span>
+=======
+                <h5>Palak Paneer with Garlic Naan</h5>
+                <p>Soft paneer cubes simmered in a smooth and creamy spinach gravy, paired with aromatic garlic naan.
+                </p>
+              </div>
+              <div class="item-right">
+                <span class="item-price">
+                  <span class="price-symbol">Rs</span>
+                  110</span>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
               </div>
             </div>
           </div>
@@ -974,12 +1380,21 @@
       </div>
     </section>
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> payal
 
 
 
 
 
 
+<<<<<<< HEAD
+=======
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
     <section class="subscribe-us pb-5 mb-5">
       <img class="d-none d-lg-block" src="./assets/images/subscribe-us.png" alt="" data-aos="fade-down-right">
       <div class="container">
@@ -1022,7 +1437,15 @@
               <div class="logo" data-aos="fade-down-right">
                 <a href="./index">
                   <i class="fa fa-utensils me-3"></i>
+<<<<<<< HEAD
                   <h1 class="mb-0">Dinsphere</h1>
+=======
+<<<<<<< HEAD
+                  <h1 class="mb-0">Restoran</h1>
+=======
+                  <h1 class="mb-0">Dinsphere</h1>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
                 </a>
               </div>
             </div>
@@ -1043,8 +1466,19 @@
             </div>
           </div>
           <div class="row pt-5 content-desc" data-aos="fade-right">
+<<<<<<< HEAD
             <p class="px-0">"Delicious flavors, fresh ingredients, and unforgettable dining—experience excellence
               with every bite at Dinsphere"</p>
+=======
+<<<<<<< HEAD
+            <p class="px-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+              ut aliquip ex ea commodo consequat Duis aute irure dolor.</p>
+=======
+            <p class="px-0">"Delicious flavors, fresh ingredients, and unforgettable dining—experience excellence
+              with every bite at Dinsphere"</p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
           </div>
           <div class="row" data-aos="fade-right">
             <div class="d-flex flex-column flex-lg-row px-0 justify-content-between">
@@ -1052,8 +1486,18 @@
                 <i class="fa-solid fa-location-dot text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
+<<<<<<< HEAD
                     12, MG Road, Indiranagar, Bengaluru, Karnataka - 560038 <br>
                     45, Connaught Place, New Delhi, Delhi - 110001
+=======
+<<<<<<< HEAD
+                    157 White Oak Drive Kansas City <br>
+                    689 Lynn Street South Boston
+=======
+                    12, MG Road, Indiranagar, Bengaluru, Karnataka - 560038 <br>
+                    45, Connaught Place, New Delhi, Delhi - 110001
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
                   </p>
                 </div>
               </div>
@@ -1061,8 +1505,18 @@
                 <i class="fa-solid fa-mobile text-white fa-2x border-bottom pb-2"></i>
                 <div class="ps-3">
                   <p class="mb-0">
+<<<<<<< HEAD
                     1234567890 <br>
                     9876543210
+=======
+<<<<<<< HEAD
+                    (617)-276-8031 <br>
+                    (617)-276-8031
+=======
+                    1234567890 <br>
+                    9876543210
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
                   </p>
                 </div>
               </div>
@@ -1098,8 +1552,19 @@
         </div>
       </div>
       <div class="row">
+<<<<<<< HEAD
         <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Dinsphere.</b> All
           rights reserved. Design by <a href="" class="fw-bold author-name">Payal & Prerna</a></p>
+=======
+<<<<<<< HEAD
+        <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Restoran.</b> All
+          rights reserved. Design by <a href="https://www.linkedin.com/in/codewithshabbir/"
+            class="fw-bold author-name">Muhammad Shabbir</a></p>
+=======
+        <p class="text-center pt-4 mt-3 pt-lg-0">&copy; <span id="copyrightCurrentYear"></span> <b> Dinsphere.</b> All
+          rights reserved. Design by <a href="" class="fw-bold author-name">Payal & Prerna</a></p>
+>>>>>>> ae097f466027d42b66cea1977c1490c3ef9fa8d0
+>>>>>>> payal
       </div>
     </div>
   </footer>
